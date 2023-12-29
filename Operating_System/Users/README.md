@@ -7,3 +7,6 @@ Folders are [capitalization-case-insensitive][0].
 The [Username?]() can be used to open path to the current user data files folder.
 
 `./Users/Username?/`
+
+Relative path to the User can be gained with [Username?/]()  
+`Username?/`
