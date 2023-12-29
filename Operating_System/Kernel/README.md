@@ -1,1 +1,1 @@
-
+Computer resources manager.
