@@ -1,6 +1,6 @@
 # Operating-System
 
-The User Operating System for computing.
+A Modular User Operating System for computing.
 
 Standardized interfaces and interaction with Operating System Kernels.  
 * Barebones structure of the Operating System.
