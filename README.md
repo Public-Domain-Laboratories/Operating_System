@@ -9,3 +9,6 @@ Standardized interfaces and interaction with Operating System Kernels.
 With focus on performance, security, usability, compatibility, scalability, and reliability.
 
 More information: [Operating_System](./Operating_System)
+
+No Copyright reserved.  
+Public Domain Laboratories.  
