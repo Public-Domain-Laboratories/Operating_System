@@ -17,6 +17,6 @@ Main Menu
 * [Contribute]()
 * [License](../LICENSE)
 
-No copyrights reserved.  
-Operating_System  
+Operating_System.  
+No copyrights reserved.   
 @Public_Domain_Laboratories
