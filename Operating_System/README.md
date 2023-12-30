@@ -17,4 +17,4 @@ Main Menu
 * [Contribute]()
 * [License](../LICENSE)
 
-An Operating_System@Public Domain
+An Operating_System@Public_Domain_Laboratories
