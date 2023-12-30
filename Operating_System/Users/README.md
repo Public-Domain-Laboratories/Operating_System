@@ -8,9 +8,10 @@ The [Username?]() can be used to open path to the current user data files folder
 
 `./Users/Username?/`
 
-Alternative:
+Alternatives:
 ```
 ./Users/--User--Username/
+./Users/--User--Home/
 ```
 
 Relative path to the User can be gained with [Username?/]()  
