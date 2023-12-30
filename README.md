@@ -3,6 +3,8 @@
 > [!IMPORTANT]  
 > This is a long term project to standardise and structure an Operating System for the future.  
 > You are welcomed to [fork](../../fork/), improve, [declare Issues](../../issues/new/) and [suggest Pull Requests](../../pulls/); [Discussions](../../discussions/).
+> 
+> [![](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://dub.sh/Operating-System)
 
 A modular Computer Operating System for general computing.
 
