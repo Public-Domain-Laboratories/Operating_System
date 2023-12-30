@@ -14,6 +14,6 @@ With focus on performance, security, usability, compatibility, scalability, and 
 
 More information: [Operating_System](./Operating_System)
 
-Intuitivity research.
+Intuitivity research.  
 No Copyright reserved.  
 Public Domain Laboratories.  
