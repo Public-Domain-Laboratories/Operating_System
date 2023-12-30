@@ -18,4 +18,5 @@ Main Menu
 * [License](../LICENSE)
 
 No copyrights reserved.  
-Operating_System@Public_Domain_Laboratories
+Operating_System
+@Public_Domain_Laboratories
