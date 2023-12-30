@@ -2,7 +2,7 @@
 
 An User Operating System for computing.
 
-Standardized interfaces and interaction with Operating System Kernel.  
+Standardized interfaces and interaction with Operating System Kernels.  
 * Barebones structure of the Operating System.
 * Robust, efficient, and user-friendly.
 
