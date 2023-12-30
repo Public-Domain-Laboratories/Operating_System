@@ -15,3 +15,5 @@ Main Menu
 * [Support]()
 * [Contribute]()
 * [License](../LICENSE)
+
+@Public Domain
