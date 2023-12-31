@@ -4,7 +4,8 @@
 > This is a long term project to standardise and structure an Operating System for the future.  
 > You are welcomed to [fork](../../fork/), improve, [declare Issues](../../issues/new/) and [suggest Pull Requests](../../pulls/); [Discussions](../../discussions/).
 > 
-> [![Sponsor_button](https://dub.sh/fk4m2Ao)](https://dub.sh/Operating-System)  
+> [![Download_Button](https://dub.sh/haAKbTN)](../../archive/master.zip)
+ [![Sponsor_button](https://dub.sh/fk4m2Ao)](https://dub.sh/Operating-System)
 
 A modular Computer Operating System for general computing.
 
