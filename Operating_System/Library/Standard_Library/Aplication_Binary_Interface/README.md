@@ -1,4 +1,4 @@
 Aplication_Binary_Interface (ABI)
 
-Loading binary executables.  
-Defining binary executable format.
+* Defining binary executable format.
+* Loading binary executables.  
