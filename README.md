@@ -5,7 +5,7 @@
 > You are welcomed to [fork](../../fork/), improve, [declare Issues](../../issues/new/) and [suggest Pull Requests](../../pulls/); [Discussions](../../discussions/).
 > 
 > 
-> [![Download_Button](https://dub.sh/haAKbTN)](../../archive/main.zip "Download Repository as .zip file") 
+> [![Download_Button](https://dub.sh/haAKbTN)](../../archive/main.zip "Download Repository as .zip file") [Explore](./Operating_System/)
 
 A modular Computer Operating System for general computing.
 
