@@ -21,5 +21,3 @@ No Copyright reserved.
 Public Domain Laboratories.  
 ___
 A Public Domain alternative to Linux Distributions, Windows Operating Systems, Apple MacOS, Google Android.
-
-![rect1]()
