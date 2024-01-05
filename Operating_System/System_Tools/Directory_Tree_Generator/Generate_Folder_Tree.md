@@ -57,4 +57,4 @@ Also: Need a latest changed folders list for quick delving into recent projects 
 ### Algorithm
 
 Recursively list all the contents of the current folder.
-
+Ident and use characters to emphasise structure of folders and files.
