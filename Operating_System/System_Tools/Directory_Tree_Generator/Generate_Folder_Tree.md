@@ -59,7 +59,7 @@ Also: Need a latest changed folders list for quick delving into recent projects 
 Recursively list all the contents of the current folder.
 Ident and use characters to emphasise structure of folders and files.
 
-D Language: Print_Directory_tree
+D Language: Print_Directory_Tree
 https://dlang.org/phobos/std_file.html#.dirEntries
 ```
 import std;
