@@ -61,21 +61,5 @@ Ident and use characters to emphasise structure of folders and files.
 
 D Language: Print_Directory_Tree
 https://dlang.org/phobos/std_file.html#.dirEntries
-```
-import std;
-import std.regex;
-void main() {
-	
-	auto re = regex(r"[^\\]+\\","g");
-    foreach (string name; dirEntries("", SpanMode.breadth))
-    {
-		if (name.startsWith(".git") == false){
-			if (name.isDir) writeln(replaceAll(name, re, "|____")); // │─
-		}
-    }
-}
-
-
-```
 
 If it's subfolder: delete that name part of the folder. 
