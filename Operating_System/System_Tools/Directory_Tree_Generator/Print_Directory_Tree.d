@@ -3,10 +3,10 @@ import std.regex;
 
 void main() {
 	
-    foreach (string absolute_path; dirEntries("", SpanMode.breadth))
+    foreach (string absolutePath; dirEntries("", SpanMode.breadth))
     {
-		if (absolute_path.startsWith(".git") == false && absolute_path.isDir){
-			string expanded = replaceAll(absolute_path, regex(r"[^\\]+\\","g"), "  │───");
+		if (absolutePath.startsWith(".git") == false && absolutePath.isDir){
+			string expanded = replaceAll(absolutePath, regex(r"[^\\]+\\","g"), "  │───");
 			writeln(expanded); // │─ //|____
 		}
     }
