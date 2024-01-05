@@ -5,7 +5,7 @@ A tool to generate or draw an interactive version of ASCII or UTF output:
   
 This will allow for better overview of the project.  
 
-Also: Need a latest changed folder for quick delving into recent projects on the monolithic repository.
+Also: Need a latest changed folders list for quick delving into recent projects on the monolithic repository.
 
 
 ├───Kernel  
