@@ -1,4 +1,5 @@
-@ECHO OFF
+@ECHO OFF && @chcp 65001 >NUL
+
 TITLE %~nx0
 CLS
 
