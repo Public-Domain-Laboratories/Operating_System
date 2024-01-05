@@ -1,8 +1,10 @@
 Directory Tree  
 A tool to generate or draw an interactive version of ASCII or UTF output:  
 * Include links to the folders and files.
+* Needs ability to export in various UTF table/box drawing symbols.
   
 This will allow for better overview of the project.  
+
 
 ├───Kernel  
 │   ├───Boot  
