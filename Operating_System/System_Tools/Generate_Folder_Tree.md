@@ -1,4 +1,4 @@
-A tool to generate similar ASCII output to:  
+A tool to generate an interactive version of ASCII output:  
 Include links to the folders and files.  
 This will allow for better overview of the project.  
 
