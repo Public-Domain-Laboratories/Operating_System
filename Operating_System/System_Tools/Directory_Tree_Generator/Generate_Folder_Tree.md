@@ -74,3 +74,5 @@ void main() {
 }
 
 ```
+
+If it's subfolder: delete that name part of the folder. 
