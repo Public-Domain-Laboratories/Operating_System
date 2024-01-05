@@ -6,6 +6,6 @@ ECHO %~p0
 RDMD System_Tools\Directory_Tree_Generator\Print_Directory_Tree.d
 
 ECHO.
-<nul set /p "=Press any key to refresh . . ." & pause >nul
+<NUL SET /p "=Press any key to refresh . . ." & PAUSE >NUL
 
 CALL %~nx0
