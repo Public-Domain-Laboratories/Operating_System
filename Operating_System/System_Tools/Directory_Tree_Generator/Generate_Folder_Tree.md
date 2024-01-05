@@ -66,7 +66,9 @@ import std;
 void main() {
     foreach (string name; dirEntries("", SpanMode.breadth))
     {
-        writeln(name);
+		if (name.startsWith(".git") == false){
+			if (name.isDir) writeln(name);
+		}
     }
 
 }
