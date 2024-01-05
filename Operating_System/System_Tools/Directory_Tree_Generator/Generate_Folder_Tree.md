@@ -54,4 +54,7 @@ Also: Need a latest changed folders list for quick delving into recent projects 
     ├───Regular_User  
     └───System_Administrator  
 
+### Algorithm
+
+Recursively list all the contents of the current folder.
 
