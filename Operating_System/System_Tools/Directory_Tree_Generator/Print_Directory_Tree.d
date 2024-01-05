@@ -6,7 +6,7 @@ void main() {
     foreach (string name; dirEntries("", SpanMode.breadth))
     {
 		if (name.startsWith(".git") == false){
-			if (name.isDir) writeln(replaceAll(name, re, "|____")); // │─
+			if (name.isDir) writeln(replaceAll(name, re, "  |____")); // │─
 		}
     }
 }
