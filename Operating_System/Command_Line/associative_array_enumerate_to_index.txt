@@ -1,5 +1,0 @@
-			foreach (command, description; commands_list.byKey.enumerate) {
-				writeln(" Create <operation>");
-				writeln("       Operation     Description");
-				writefln("       %s      %s  ", command,  description);
-			}
