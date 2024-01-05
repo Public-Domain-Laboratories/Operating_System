@@ -1,6 +1,6 @@
-A tool to generate similar output to:
-Include links to the folders and files.
-This will allow for better overview of the project.
+A tool to generate similar ASCII output to:  
+Include links to the folders and files.  
+This will allow for better overview of the project.  
 
 ```
 ├───Kernel
