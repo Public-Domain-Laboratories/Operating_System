@@ -1,0 +1,3 @@
+@ECHO OFF
+RDMD System_Tools\Directory_Tree_Generator\Print_Directory_Tree.d
+PAUSE
