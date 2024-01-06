@@ -7,7 +7,7 @@ void main() {
     {
 		if (absolutePath.startsWith(".git") == false && absolutePath.isDir){
 			if (true){
-				string expanded = replaceFirst(absolutePath, regex(r"[^\\]+\\","g"), "  │───");
+				string expanded = replaceAll(absolutePath, regex(r"[^\\]+\\","g"), "  │───");
 				writeln(expanded); // │─ //|____
 			} else if (true) {
 				writeln(absolutePath); 
