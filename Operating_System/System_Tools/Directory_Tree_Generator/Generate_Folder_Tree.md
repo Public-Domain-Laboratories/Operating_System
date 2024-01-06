@@ -63,3 +63,10 @@ D Language: Print_Directory_Tree
 https://dlang.org/phobos/std_file.html#.dirEntries
 
 If it's subfolder: delete that name part of the folder. 
+
+
+
+Terminology Essentials
+* Binary Tree Printer
+* Horizontal Trees
+* Tree nodes
