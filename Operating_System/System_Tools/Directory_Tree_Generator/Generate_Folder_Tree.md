@@ -69,6 +69,7 @@ If it's subfolder: delete that name part of the folder.
 
 
 Terminology Essentials
-* Binary Tree Printer
+* Tree Printer
 * Horizontal Trees
 * Tree nodes
+* Branching structures
