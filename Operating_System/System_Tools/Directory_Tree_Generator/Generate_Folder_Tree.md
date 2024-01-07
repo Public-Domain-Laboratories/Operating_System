@@ -12,7 +12,9 @@ This will allow for better overview of the project.
 
 Also: Need a latest changed folders list for quick delving into recent projects on the monolithic repository.
 
-If it's a subfolder do not indent.
+If it's a subfolder do indent.
+
+Needs sort by alphabetical order.
 
 
 ├───Kernel  
