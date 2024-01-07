@@ -1,5 +1,8 @@
 Directory tree structure overview
 
+The directory tree structure is a visual representation that helps users understand the organization of files and directories 
+within a file system, making it easier to navigate and manage the file hierarchy. 
+
 Directory Tree  
 A tool to generate or draw an interactive version of ASCII or UTF output:  
 * Include links to the folders and files.
