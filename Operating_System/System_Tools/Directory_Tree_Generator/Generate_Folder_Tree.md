@@ -14,6 +14,8 @@ Also: Need a latest changed folders list for quick delving into recent projects 
 
 If it's a subfolder do indent.
 Treat subfolders with identation.
+First subfolder idents with branch, then identations added before branch.
+
 Treat the ending of the tree with angled symbol.
 
 ~Needs sort by alphabetical order.~ No, it needs only to construct tree as the list of paths are presented.
