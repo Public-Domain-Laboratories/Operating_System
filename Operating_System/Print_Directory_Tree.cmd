@@ -9,7 +9,7 @@ ECHO.
 :test_run
 FOR /F %%i IN ('DIR /S/B "TEST"') do (SET "testpath=%%~di%%~pi")
 IF ERRORLEVEL 0 (
-	FOR /F %%f IN ('DIR /S/B /OD "%testpath%*.d"') do (ECHO %%f &&  SET "testpathrun=%%f")
+	FOR /F %%f IN ('DIR /S/B /OD "%testpath%*.d"') do (SET "testpathrun=%%f")
 	RDMD "!testpathrun!"  
 	GOTO :continue 
 )
