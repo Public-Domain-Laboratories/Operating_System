@@ -9,7 +9,7 @@ void Print_Directory_Paths(){
 					write("├───"); 
 					write(member); 
 					write("\n"); 
-				} else { write(" │");}
+				} else { write("│  ");}
 				
 			}
 			//writeln();
