@@ -10,15 +10,15 @@ void Print_Directory_Paths(){
 					write("├───"); 
 					write(member); 
 					write("\n"); 
-					deconstructed_path.popBack();
-					if (deconstructed_path.empty){write("|");}
-				} 			
+					deconstructed_path.popFront();
+
+				}  		
 				else { 
 					write("│   ");
 				}
 
 			}
-					
+			if (deconstructed_path.empty){write("|");}			
 		}
 	}
 }
