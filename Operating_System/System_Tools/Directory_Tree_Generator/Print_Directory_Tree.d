@@ -7,6 +7,7 @@ void Print_Directory_Paths(){
 			foreach (member; deconstructed_path){
 				writeln(member); 
 			}
+			writeln();
 			
 		}
 	}
