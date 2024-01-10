@@ -3,7 +3,8 @@ import std;
 void Print_Directory_Paths(){
 	foreach (string absolutePath; dirEntries("", SpanMode.breadth)){
 		if (absolutePath.isDir && absolutePath.startsWith(".git") == false){
-			writeln(absolutePath.split("\\")); // Deconstruct path
+			string[] deconstructed_path = absolutePath.split("\\");
+			writeln(deconstructed_path); // Deconstruct path
 		}
 	}
 }
