@@ -8,6 +8,9 @@ void Print_Directory_Paths(){
 				writeln(member); 
 			}
 			writeln();
+			//deconstructed_path.popFront();
+			writeln(deconstructed_path.back);
+			writeln();
 			
 		}
 	}
