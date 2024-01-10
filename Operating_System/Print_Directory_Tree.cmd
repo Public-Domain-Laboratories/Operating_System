@@ -1,4 +1,4 @@
-@ECHO OFF && @chcp 65001 >NUL && setlocal EnableDelayedExpansion 
+@ECHO OFF && @chcp 65001 >NUL && SETLOCAL EnableDelayedExpansion 
 
 TITLE %~nx0
 CLS
@@ -7,9 +7,9 @@ ECHO Directory: %~p0
 ECHO.
 
 :test_run
-FOR /F %%i IN ('DIR /S/B "TEST"') do (SET "testpath=%%~di%%~pi")
+FOR /F %%i IN ('DIR /S/B "TEST"') DO (SET "testpath=%%~di%%~pi")
 IF ERRORLEVEL 0 (
-	FOR /F %%f IN ('DIR /S/B /OD "%testpath%*.d"') do (SET "testpathrun=%%f")
+	FOR /F %%f IN ('DIR /S/B /OD "%testpath%*.d"') DO (SET "testpathrun=%%f")
 	RDMD "!testpathrun!"  
 	GOTO :continue 
 )
