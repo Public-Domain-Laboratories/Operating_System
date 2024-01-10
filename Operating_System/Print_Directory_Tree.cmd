@@ -8,14 +8,8 @@ ECHO.
 
 FOR /F %%i IN ('DIR /S/B "TEST"') do (SET "testpath=%%~di%%~pi")
 IF ERRORLEVEL 0 (
-
-
 	FOR /F %%f IN ('DIR /S/B /OD "%testpath%*.d"') do (ECHO %%f &&  SET "testpathrun=%%f")
-	
 	RDMD "!testpathrun!"  
-	REM ECHO !testpathrun!
-	REM 	RDMD "%testpath%Print_Directory_Tree.d"  
-
 	GOTO :continue 
 )
 
