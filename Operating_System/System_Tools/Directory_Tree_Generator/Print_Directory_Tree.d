@@ -1,10 +1,11 @@
 import std;
 
 void Print_Directory_Paths(){
-	foreach (string absolutePath; dirEntries("", SpanMode.breadth)){
-		if (absolutePath.isDir && absolutePath.startsWith(".git") == false){
-			string[] deconstructed_path = absolutePath.split("\\");
+	foreach (string relativePath; dirEntries("", SpanMode.breadth)){
+		if (relativePath.isDir && relativePath.startsWith(".git") == false){
+			string[] deconstructed_path = relativePath.split("\\");
 			writeln(deconstructed_path); 
+			// Iterate recursively and check the last member.
 		}
 	}
 }
