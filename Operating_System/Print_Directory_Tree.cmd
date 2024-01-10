@@ -6,17 +6,17 @@ CLS
 ECHO Directory: %~p0
 ECHO.
 
-dir /s/b "TEST" > nul 2>&1
-if errorlevel 0 (
-    echo Files found
-) 
-pause
+FOR /F %%i IN ('DIR /S/B "TEST"') do (SET "testpath=%%~di%%~pi")
+IF ERRORLEVEL 0 (
+	RDMD "%testpath%Print_Directory_Tree.d"  
+	GOTO :continue 
+)
 
-REM dir /s/b TEST
-IF EXIST ".\TEST"
 RDMD ".\System_Tools\Directory_Tree_Generator\Print_Directory_Tree.d"
 REM RDMD ".\System_Tools\Directory_Tree_Generator\Print_Directory_Tree_Structure.d"
 REM RDMD ".\System_Tools\Directory_Tree_Generator\Print_Directory_Paths.d"
+
+:continue
 
 ECHO.
 <NUL SET /p "=Press any key to refresh . . ." & PAUSE >NUL
