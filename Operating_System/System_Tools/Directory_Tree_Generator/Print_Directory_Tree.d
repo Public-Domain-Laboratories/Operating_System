@@ -12,10 +12,6 @@ void Print_Directory_Paths(){
 				} else { write("│  ");}
 				
 			}
-			//writeln();
-			////deconstructed_path.popFront();
-			//writeln();
-			//writeln();
 			
 		}
 	}
