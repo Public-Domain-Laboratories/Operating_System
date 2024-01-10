@@ -5,12 +5,17 @@ void Print_Directory_Paths(){
 		if (relativePath.isDir && relativePath.startsWith(".git") == false){
 			string[] deconstructed_path = relativePath.split(std.path.dirSeparator);
 			foreach (member; deconstructed_path){
-				writeln(member); 
+				if (member == deconstructed_path.back){
+					write("├───"); 
+					write(member); 
+					write("\n"); 
+				} else { write(" │");}
+				
 			}
-			writeln();
-			//deconstructed_path.popFront();
-			writeln(deconstructed_path.back);
-			writeln();
+			//writeln();
+			////deconstructed_path.popFront();
+			//writeln();
+			//writeln();
 			
 		}
 	}
