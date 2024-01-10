@@ -18,7 +18,7 @@ void Print_Directory_Paths(){
 				}
 
 			}
-			if (deconstructed_path.empty){write("|");}			
+			//if (deconstructed_path.empty){write("|");}			
 		}
 	}
 }
