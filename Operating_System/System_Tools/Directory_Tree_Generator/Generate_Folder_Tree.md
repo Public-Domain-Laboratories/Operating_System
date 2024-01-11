@@ -86,3 +86,4 @@ Terminology Essentials
 * Horizontal Trees
 * Tree nodes
 * Branching structures
+* Final connector
