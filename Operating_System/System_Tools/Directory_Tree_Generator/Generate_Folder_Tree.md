@@ -93,3 +93,5 @@ You have to know when directories end and dirEntries("", SpanMode.breadth) might
 You might need to recheck manualy before printing symbol.
 
 You kinda have to transverse first and then decide what symbol to put.
+
+Aka. Needs late response/delay by a step before printing.
