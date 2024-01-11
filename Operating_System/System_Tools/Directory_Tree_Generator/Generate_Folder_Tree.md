@@ -87,3 +87,4 @@ Terminology Essentials
 * Tree nodes
 * Branching structures
 * Final connector
+* Trie data structure
