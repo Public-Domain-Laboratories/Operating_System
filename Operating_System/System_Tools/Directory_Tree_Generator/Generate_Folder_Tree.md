@@ -1,6 +1,7 @@
 Dev Log
 
 Display the folder structure of a directory in a tree-like format.
+Displays the directory structure of a path graphically.
 
 Directory tree structure overview
 
