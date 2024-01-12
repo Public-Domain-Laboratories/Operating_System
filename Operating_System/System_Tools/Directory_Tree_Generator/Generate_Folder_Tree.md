@@ -107,3 +107,5 @@ match(back) and pop array item
 ->[item, item, back]
 ->[item, back]
 ->[back]
+
+The stack data structure should be used for transversal, that is: loop over in delayed manner to decide on which branch symbol to place.
