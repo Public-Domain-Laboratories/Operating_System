@@ -112,3 +112,15 @@ match(back) and pop array item
 ->[back]
 
 The stack data structure should be used for transversal, that is: loop over in delayed manner to decide on which branch symbol to place.
+
+
+Delayed transversal using stack:
+Array: [item, item, item]
+		|_______
+Stack: [empty, item, item, item]
+
+The first item in the stack is empty.
+A new item is added to the stack from array.
+
+This way using a stack it would be possible to check for the next item in the stack?
+By referencing the array item?
