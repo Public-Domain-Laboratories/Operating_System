@@ -97,3 +97,6 @@ You kinda have to transverse first and then decide what symbol to put.
 Aka. Needs late response/delay by a step before printing.
 
 Using stack data structure might help with that.
+
+Check path array length or item count to see if the next path is in the same branch level. 
+Flawed: the next path might be on the same level, but under different folders
