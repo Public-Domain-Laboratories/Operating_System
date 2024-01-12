@@ -103,6 +103,7 @@ Using stack data structure might help with that.
 Check path array length or item count to see if the next path is in the same branch level. 
 Flawed: the next path might be on the same level, but under different folders
 
+match(back) and pop array item
 ->[item, item, back]
 ->[item, back]
 ->[back]
