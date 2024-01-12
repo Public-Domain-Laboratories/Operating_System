@@ -1,5 +1,7 @@
 Dev Log
 
+Display the folder structure of a directory in a tree-like format.
+
 Directory tree structure overview
 
 The directory tree structure is a visual representation that helps users understand the organization of files and directories 
