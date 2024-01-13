@@ -1,4 +1,5 @@
 Computer Science Dev Log
+Data Structures & Algorithms
 
 Tree traversal: is a systematic way of visiting nodes in a tree. https://youtu.be/1WxLM2hwL-U?t=6
 
