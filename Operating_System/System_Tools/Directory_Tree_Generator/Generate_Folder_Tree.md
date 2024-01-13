@@ -106,6 +106,7 @@ Terminology Essentials
 * DFS or Depth-First Search: 1. Pre-order traversal. 2.In-order traversal. 3. Post-order traversal.
 * BFS or Breadth-First Search 1. Level-order traversal.
 
+Recursive traversal
 1. Pre-order traversal: 1. Visit node. 2. Traverse left. 3. Traverse right. https://www.youtube.com/watch?v=1WxLM2hwL-U
 
 
@@ -126,10 +127,10 @@ match(back) and pop array item
 ->[item, back]
 ->[back]
 
-The stack data structure should be used for transversal, that is: loop over in delayed manner to decide on which branch symbol to place.
+The stack data structure should be used for traversal, that is: loop over in delayed manner to decide on which branch symbol to place.
 
 
-Delayed transversal using stack:
+Delayed traversal using stack:
 Array: [item, item, item]
 		|_______
 Stack: [empty, item, item, item]
