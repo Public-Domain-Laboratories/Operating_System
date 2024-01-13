@@ -147,4 +147,4 @@ https://www.youtube.com/watch?v=ymlzHmRN4To
 
 https://dlang.org/library/std/file/span_mode.html
 
-If the next path is no longer part of the folder: complete the branch.
+If the next path is no longer part of the folder: complete the branch. (└───)
