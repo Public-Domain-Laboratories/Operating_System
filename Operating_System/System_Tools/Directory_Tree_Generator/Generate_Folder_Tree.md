@@ -108,6 +108,7 @@ Terminology Essentials
 * Tree walk
 * Directory nodes
 * Directory parse
+* Form a tree view of path names.
 
 Recursive traversal
 1. Pre-order traversal: 1. Visit node. 2. Traverse left. 3. Traverse right. https://www.youtube.com/watch?v=1WxLM2hwL-U
