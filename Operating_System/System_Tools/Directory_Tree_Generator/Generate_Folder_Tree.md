@@ -1,5 +1,7 @@
 Dev Log
 
+Technique used for traversing trees or graphs.
+
 Display the folder structure of a directory in a tree-like format.
 Displays the directory structure of a path graphically.
 
