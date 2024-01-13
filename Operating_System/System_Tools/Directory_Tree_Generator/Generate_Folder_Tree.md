@@ -93,6 +93,7 @@ Terminology Essentials
 * Branching structures
 * Final connector
 * Trie data structure
+* Hierarchy structure
 
 You have to know when directories end and dirEntries("", SpanMode.breadth) might not provide that.
 You might need to recheck manualy before printing symbol.
