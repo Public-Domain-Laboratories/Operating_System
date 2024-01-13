@@ -105,6 +105,8 @@ Terminology Essentials
 * depth first search - DFS traversal of a Tree
 * DFS or Depth-First Search: 1. Pre-order traversal. 2.In-order traversal. 3. Post-order traversal.
 * BFS or Breadth-First Search 1. Level-order traversal.
+* Tree walk
+* Directory nodes
 
 Recursive traversal
 1. Pre-order traversal: 1. Visit node. 2. Traverse left. 3. Traverse right. https://www.youtube.com/watch?v=1WxLM2hwL-U
