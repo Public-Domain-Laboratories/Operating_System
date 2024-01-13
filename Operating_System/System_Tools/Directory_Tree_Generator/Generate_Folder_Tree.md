@@ -164,3 +164,5 @@ If the next path is no longer part of the folder: complete the branch. (└─�
 https://en.wikipedia.org/wiki/Tree_(command)
 
 Determine if it is last level in the current level of the tree.(└───)
+
+Check amount of items in the folder and if it's last in the loop, then add ending. └───
