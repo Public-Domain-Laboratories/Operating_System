@@ -144,3 +144,5 @@ By referencing the array item?
 
 Graph Data Structure 3. Traversing a Graph (algorithms)
 https://www.youtube.com/watch?v=ymlzHmRN4To
+
+https://dlang.org/library/std/file/span_mode.html
