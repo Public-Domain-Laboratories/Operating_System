@@ -107,6 +107,7 @@ Terminology Essentials
 * BFS or Breadth-First Search 1. Level-order traversal.
 * Tree walk
 * Directory nodes
+* Directory parse
 
 Recursive traversal
 1. Pre-order traversal: 1. Visit node. 2. Traverse left. 3. Traverse right. https://www.youtube.com/watch?v=1WxLM2hwL-U
