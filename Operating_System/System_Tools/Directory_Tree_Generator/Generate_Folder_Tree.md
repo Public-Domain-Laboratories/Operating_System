@@ -103,8 +103,11 @@ Terminology Essentials
 * Tree structure graph, graphic
 * construct tree algorithm
 * depth first search - DFS traversal of a Tree
-* DFS or Depth-First Search
-* BFS or Breadth-First Search
+* DFS or Depth-First Search: 1. Pre-order traversal. 2.In-order traversal. 3. Post-order traversal.
+* BFS or Breadth-First Search 1. Level-order traversal.
+
+1. Pre-order traversal: 1. Visit node. 2. Traverse left. 3. Traverse right. https://www.youtube.com/watch?v=1WxLM2hwL-U
+
 
 You have to know when directories end and dirEntries("", SpanMode.breadth) might not provide that.
 You might need to recheck manualy before printing symbol.
