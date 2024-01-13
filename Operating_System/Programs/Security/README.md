@@ -1,0 +1,1 @@
+Security of a file can be achieved by preventing OS tools from access and by encrypting with a password or device authorisation generator.
