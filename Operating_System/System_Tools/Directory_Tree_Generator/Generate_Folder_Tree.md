@@ -2,6 +2,8 @@ Dev Log
 
 Technique used for traversing trees or graphs.
 
+Traversing trees or graphs refers to the process of visiting and processing each node or vertex in a systematic way. 
+
 Display the folder structure of a directory in a tree-like format.
 Displays the directory structure of a path graphically.
 
