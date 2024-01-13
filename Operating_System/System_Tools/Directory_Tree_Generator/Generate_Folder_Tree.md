@@ -134,3 +134,7 @@ A new item is added to the stack from array.
 
 This way using a stack it would be possible to check for the next item in the stack?
 By referencing the array item?
+
+
+Graph Data Structure 3. Traversing a Graph (algorithms)
+https://www.youtube.com/watch?v=ymlzHmRN4To
