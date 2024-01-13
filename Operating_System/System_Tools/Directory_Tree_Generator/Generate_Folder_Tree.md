@@ -1,5 +1,7 @@
 Dev Log
 
+Tree traversal: is a systematic way of visiting nodes in a tree. https://youtu.be/1WxLM2hwL-U?t=6
+
 Technique used for traversing trees or graphs.
 
 Traversing trees or graphs refers to the process of visiting and processing each node or vertex in a systematic way. 
