@@ -167,3 +167,6 @@ Determine if it is last level in the current level of the tree.(└───)
 
 Check amount of items in the folder and if it's last in the loop, then add ending. └───
 Traversal for counting folders is required?
+
+
+Traversal over all paths to check for equal level directories might be necessary to ensure stability and requirement of sorting the list of paths.
