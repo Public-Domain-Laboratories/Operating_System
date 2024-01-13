@@ -111,6 +111,8 @@ Terminology Essentials
 * Directory parse
 * Form a tree view of path names.
 * Building Tree Structure from a list of string paths.
+* A Node tree from list of paths
+
 Recursive traversal
 1. Pre-order traversal: 1. Visit node. 2. Traverse left. 3. Traverse right. https://www.youtube.com/watch?v=1WxLM2hwL-U
 
