@@ -96,7 +96,7 @@ Terminology Essentials
 * Hierarchy structure
 * Tree structure graph, graphic
 * construct tree algorithm
-* depth first search
+* depth first search - DFS traversal of a Tree
 
 You have to know when directories end and dirEntries("", SpanMode.breadth) might not provide that.
 You might need to recheck manualy before printing symbol.
