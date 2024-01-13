@@ -4,6 +4,8 @@ Data Structures & Algorithms
 A program that produces a depth-indented listing of files.
 
 Tree traversal: is a systematic way of visiting nodes in a tree. https://youtu.be/1WxLM2hwL-U?t=6
+1. Build a directory tree.
+2. Tranverse the directory tree.
 
 Technique used for traversing trees or graphs.
 
