@@ -1,1 +1,1 @@
-A folder for documenting Operating System: personal notes and explanations on Operating System.
+A folder for documenting Operating System: personal notes and explanations.
