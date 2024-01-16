@@ -1,6 +1,6 @@
 Operating System Root folder
 
-.md = markdown, metadata
+.md = markdown, metadata - data about data.
 
 Overview of the operating system.
 * [Kernel](./Kernel/) - Automatic Computer Resource Manager.
