@@ -1,3 +1,7 @@
+Operating System Root folder
+
+.md = markdown, metadata
+
 Overview of the operating system.
 * [Kernel](./Kernel/) - Automatic Computer Resource Manager.
 * [Library](./Library/) - System Library and Interfaces of [Operating_System](./).
