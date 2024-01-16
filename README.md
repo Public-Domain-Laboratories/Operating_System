@@ -1,4 +1,4 @@
-# Operating-System [![Sponsor_button](https://dub.sh/fk4m2Ao)](https://dub.sh/Operating-System "Donate to the Project")
+# Operating-System Project [![Sponsor_button](https://dub.sh/fk4m2Ao)](https://dub.sh/Operating-System "Donate to the Project")
 
 > [!IMPORTANT]  
 > This is a long term project to standardise and structure an Operating System for the future.  
