@@ -19,3 +19,5 @@ Relative path to the User can be gained with [Username?/]()
 `Username?/`
 
 Users and Usernames should be encrypted unless viewed by Administrator.
+
+Alias: Homes, Profiles, Accounts.
