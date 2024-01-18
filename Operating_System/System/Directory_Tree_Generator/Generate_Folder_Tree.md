@@ -175,3 +175,5 @@ Count the size of directories and only then using directory count check the last
 
 Or checking if the next item in the path is on the same level as you are currently.
 Or checking at end of current path if the next path at at the same (level/depth) folder.
+
+ compare to value from previous iteration and  set current iteration value into variable  
