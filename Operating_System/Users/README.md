@@ -1,4 +1,4 @@
-Folder of Users and their data.
+Folder of Users, their data and installed user-wide programs.
 
 Folders are [capitalization-case-insensitive][0].
 
