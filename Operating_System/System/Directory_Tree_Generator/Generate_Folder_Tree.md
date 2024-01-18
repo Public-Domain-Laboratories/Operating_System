@@ -177,3 +177,4 @@ Or checking if the next item in the path is on the same level as you are current
 Or checking at end of current path if the next path at at the same (level/depth) folder.
 
  compare to value from previous iteration and  set current iteration value into variable  
+ compare if path subfolders are same as previous iteration.
