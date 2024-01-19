@@ -182,3 +182,5 @@ Or checking at end of current path if the next path at at the same (level/depth)
  If relative_path contains not same amount of subfolder depth as previous relative_path: add symbol └───
  
  Set into temporary variables then continue. In the next iteration print previous and current one.
+ 
+ If the next path have less identation subfolders than current one: place └───
