@@ -203,3 +203,5 @@ Pseudo code
 }
 ```
 
+Check if current depth is smaller or higher than the previous path depth.
+
