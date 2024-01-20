@@ -183,7 +183,7 @@ Or checking at end of current path if the next path at at the same (level/depth)
  
  Set into temporary variables then continue. In the next iteration print previous and current one.
  
- If the next path have less identation subfolders than current one: place └───
+ If the next path have less identation subfolders than current one: place └───  
 Pseudo code
 ```
  While(paths not empty){
