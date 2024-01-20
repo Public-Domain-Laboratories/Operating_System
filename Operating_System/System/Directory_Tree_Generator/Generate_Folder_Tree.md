@@ -184,3 +184,22 @@ Or checking at end of current path if the next path at at the same (level/depth)
  Set into temporary variables then continue. In the next iteration print previous and current one.
  
  If the next path have less identation subfolders than current one: place └───
+Pseudo code
+```
+ While(paths not empty){
+	Set "variable" to previous iteration value;
+	pop "paths";
+}
+```
+
+Pseudo code
+```
+ While(paths not empty){
+	prevDepth = "Depth"
+	if "path" is not path end item:
+		Add +1 to "Depth"
+	If "Depth" is lower than prevDepth:
+		print "└───"
+}
+```
+
