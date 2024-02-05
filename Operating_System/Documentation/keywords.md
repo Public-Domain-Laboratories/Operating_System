@@ -1,2 +1,2 @@
-Parsing_Language  
+Parsing_Language  syntax analysis, or syntactic analysis 
 Script  
