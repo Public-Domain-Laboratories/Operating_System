@@ -208,4 +208,4 @@ Check if current depth is smaller or higher than the previous path depth.
 You have to wait until depth is scanned for the next path before printing previous branch symbol and the next one.
 
 
-Loop forward, check if current variable is matched, if not: print previous and current, move forward to the next path.
+Loop forward, check if current variable is matched, if not: print previous and the current one, move forward to the next path.
