@@ -13,5 +13,6 @@ Treat special words like "Operating System" as "Operating_System": automatically
 
 
 Idea for commands:  
-`File new "./textfile.txt"`
-`File new textFile "./file.txt"`
+`File new "./textfile.txt"`  
+`File new textFile "./file.txt"`  
+ 
