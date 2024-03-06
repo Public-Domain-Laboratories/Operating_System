@@ -20,8 +20,8 @@ void main() {
     foreach (path; paths) {
         depth = 0;
         foreach (directory; splitString(path)) {
-            for (int count; count<=depth; count++) write("  ");
-            write(depth, " ", directory);
+            for (int count; count<=depth; count++) write("__");
+            write(directory);
 
 
   
