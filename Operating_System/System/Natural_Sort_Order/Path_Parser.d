@@ -32,7 +32,7 @@ string[] splitString(string text)
         if (letter != '/') token ~= letter;
         if (letter == '/') {
             extracted ~= token;
-			token="";
+            token="";
         }
     }
     return extracted;
