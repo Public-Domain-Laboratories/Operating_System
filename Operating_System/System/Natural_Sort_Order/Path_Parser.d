@@ -15,9 +15,8 @@ string[] paths = [
 
 void main() {
     // Traverse path.
-    foreach (size_t depth, string path; paths) {
-        depth=0;
-        foreach (directory; splitString(path)) {
+    foreach (string path; paths) {
+        foreach (size_t depth, directory; splitString(path)) {
             for (int count; count<=depth; count++) {if (count != depth) {write("|  ");} else {write("|");} }
             write("_");
             write(directory, depth++);
