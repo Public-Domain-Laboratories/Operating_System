@@ -16,15 +16,12 @@ string[] paths = [
 void main() {
     // Traverse path.
     writeln("Output: ");
-    int depth;
     foreach (path; paths) {
-        depth = 0;
+        int depth = 0;
         foreach (directory; splitString(path)) {
             for (int count; count<=depth; count++) write("__");
             write(directory);
-
-
-  
+            
             depth++;
             
             write("\n");
