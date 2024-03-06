@@ -20,9 +20,14 @@ void main() {
     foreach (path; paths) {
         depth = 0;
         foreach (directory; splitString(path)) {
-            writeln(depth, " ", directory);
+            for (int count; count<=depth; count++) write("  ");
+            write(depth, " ", directory);
+
+
+  
             depth++;
-            if (depth !=0) for (int count; count<=depth; count++) write("  ");
+            
+            write("\n");
         }
     }
 }
