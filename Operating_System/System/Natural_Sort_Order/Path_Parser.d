@@ -15,8 +15,6 @@ string[] paths = [
 
 void main() {
     // Traverse path.
-    writeln("Output: ");
-
     foreach (size_t depth, string path; paths) {
         depth=0;
         foreach (directory; splitString(path)) {
@@ -24,7 +22,6 @@ void main() {
             write(directory);
             
             depth++;
-            
             write("\n");
         }
     }
