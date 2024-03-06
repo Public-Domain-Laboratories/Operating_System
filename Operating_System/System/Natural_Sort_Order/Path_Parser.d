@@ -2,37 +2,36 @@ import std;
 
 // Folders can store only files.
 // Directories can store files and subfolders
-// Mostly can be used interchangably.
+// Mostly can be used interchangeably.
 
 string[] paths = [
-    "./directory/1_folder/subfolder/",
-    "./directory/2_folder/subfolder/",
-    "./directory/3_folder/subfolder/",
-    "./directory/4_folder/subfolder/",
-    "./directory/2_folder/3_subfolder/"
+    "./0_directory/",
+    "./1_directory/1_folder/subfolder/",
+    "./2_directory/2_folder/subfolder/",
+    "./3_directory/3_folder/subfolder/",
+    "./4_directory/4_folder/subfolder/",
+    "./5_directory/2_folder/3_subfolder/"
 ];
 
-void main()
-{
+void main() {
     writeln("Output: ");
-    foreach(path; paths){
-        
-      foreach(node; splitString(path)){
-        writeln(node);
-      }
+    foreach (path; paths) {
+        foreach (directory; splitString(path)) {
+            writeln(directory);
+        }
     }
 }
 
 // Path parser
-string[] splitString(string text)
-{
+string[] splitString(string text) {
     string[] extracted;
     string token;
-    foreach(letter; text) {
-        if (letter != '/') token ~= letter;
+    foreach (letter; text) {
+        if (letter != '/')
+            token ~= letter;
         if (letter == '/') {
             extracted ~= token;
-            token="";
+            token = "";
         }
     }
     return extracted;
