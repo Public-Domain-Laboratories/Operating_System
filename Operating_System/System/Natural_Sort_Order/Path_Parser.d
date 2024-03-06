@@ -18,8 +18,7 @@ void main() {
     foreach (string path; paths) {
         foreach (size_t depth, string directory; splitString(path)) {
             for (int count; count<=depth; count++) {if (count != depth) {write("|  ");} else {write("|");} }
-            write("_");
-            write(directory, depth++);
+            write("_", directory, depth++);
             write("\n");
         }
     }
