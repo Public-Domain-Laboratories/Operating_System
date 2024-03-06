@@ -20,9 +20,7 @@ void main() {
         foreach (directory; splitString(path)) {
             for (int count; count<=depth; count++) write("|  ");
             write("|_");
-            write(directory, depth);
-            
-            depth++;
+            write(directory, depth++);
             write("\n");
         }
     }
