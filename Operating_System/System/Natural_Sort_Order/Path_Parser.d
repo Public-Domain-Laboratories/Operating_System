@@ -5,12 +5,12 @@ import std;
 // Mostly can be used interchangeably.
 
 string[] paths = [
-    "./0_directory/",
-    "./1_directory/1_folder/subfolder/",
-    "./2_directory/2_folder/subfolder/",
-    "./3_directory/3_folder/subfolder/",
-    "./4_directory/4_folder/subfolder/",
-    "./5_directory/2_folder/3_subfolder/"
+    "./directory/",
+    "./directory/folder/subfolder/",
+    "./directory/folder/subfolder/",
+    "./directory/folder/subfolder/",
+    "./directory/folder/subfolder/",
+    "./directory/folder/subfolderTwo/"
 ];
 
 void main() {
@@ -18,7 +18,7 @@ void main() {
     foreach (size_t depth, string path; paths) {
         depth=0;
         foreach (directory; splitString(path)) {
-            for (int count; count<=depth; count++) write("  ");
+            for (int count; count<=depth; count++) write("|  ");
             write("|_");
             write(directory);
             
