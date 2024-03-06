@@ -14,10 +14,15 @@ string[] paths = [
 ];
 
 void main() {
+    // Traverse path.
     writeln("Output: ");
+    int depth;
     foreach (path; paths) {
+        depth = 0;
         foreach (directory; splitString(path)) {
-            writeln(directory);
+            writeln(depth, " ", directory);
+            depth++;
+            if (depth !=0) for (int count; count<=depth; count++) write("  ");
         }
     }
 }
@@ -27,8 +32,9 @@ string[] splitString(string text) {
     string[] extracted;
     string token;
     foreach (letter; text) {
-        if (letter != '/')
+        if (letter != '/'){
             token ~= letter;
+        }
         if (letter == '/') {
             extracted ~= token;
             token = "";
