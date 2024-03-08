@@ -6,16 +6,20 @@ import std;
 
 string[] paths = [
     "./directory/folder/subfolder/",
+    "./directory/folder/subfolder/",
 ];
 
 void main() {
     // Traverse path.
+
     foreach (path; paths) writeln(path);
-    foreach (size_t depth, string path; paths) {
-        depth=0;
+    
+    foreach (string path; paths) {
+        size_t depth;
         foreach (directory; splitString(path)) {
-   			foreach (i; 0 .. depth) write("_");
-            write(directory, depth++);
+   			foreach (i; 0 .. depth) write(" ");
+            write("├");
+            write(directory, ); depth++;
             write("\n");
             
         }
