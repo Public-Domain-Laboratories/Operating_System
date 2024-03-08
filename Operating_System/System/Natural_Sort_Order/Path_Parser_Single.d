@@ -17,11 +17,11 @@ void main() {
     foreach (string path; paths) {
         size_t depth;
         foreach (directory; splitString(path)) {
-   			foreach (i; 0 .. depth) write(" ");
+            foreach (i; 0 .. depth) write(" ");
             if (depth != 0) write("├");
-            write(directory, ); depth++;
+            write(directory, ); 
             write("\n");
-            
+            depth++;
         }
     }
 }
