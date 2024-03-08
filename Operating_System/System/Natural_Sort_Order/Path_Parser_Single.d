@@ -18,7 +18,7 @@ void main() {
         size_t depth;
         foreach (directory; splitString(path)) {
    			foreach (i; 0 .. depth) write(" ");
-            write("├");
+            if (depth != 0) write("├");
             write(directory, ); depth++;
             write("\n");
             
