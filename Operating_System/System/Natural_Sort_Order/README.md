@@ -39,7 +39,7 @@ void main()
 }
 ```
 
-
+Breadth-first search is mandatory: scanning all the paths and transversing on each level
 
 Reference
 
