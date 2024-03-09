@@ -38,3 +38,36 @@ void main()
     
 }
 ```
+
+
+
+Reference
+
+```
+.
+└── ubuntu
+    ├── mydirectory1
+    │   ├── file1
+    │   ├── file2
+    │   ├── file3
+    │   ├── file4
+    │   └── letters
+    │       ├── books
+    │       ├── magazines
+    │       └── readme
+    ├── mymovies
+    │   ├── comedy
+    │   ├── drama
+    │   ├── terror
+    │   └── thriller
+    └── mytrips
+        ├── mydirexample
+        │   └── file.txt
+        └── pictures
+            ├── Australia
+            ├── France
+            ├── Germany
+            ├── Japan
+            └── USA
+
+```
