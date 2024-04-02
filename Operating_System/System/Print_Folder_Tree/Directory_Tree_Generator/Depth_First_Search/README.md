@@ -4,4 +4,5 @@ Depth First Search is naturally recursive. Any "iterative" search would either s
 
 https://en.wikipedia.org/wiki/Depth-first_search
 
-Tree traversal using Depth-First Search. Graph traversal might not be correct for this project.
+Tree traversal using Depth-First Search.   
+Graph traversal might not be correct for this project.  
