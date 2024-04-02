@@ -1,1 +1,1 @@
-Exploring paths.
+Exploring paths by traversal.
