@@ -18,7 +18,7 @@ Idea for commands:
  
 
 Folders should be created according to the target to be achieved:  
-Example: Working on printing folder structure:   
-Operating_System/System/Print_Folder_Structure/Algorithms  
-Operating_System/System/Print_Folder_Structure/Research  
-Operating_System/System/Print_Folder_Structure/Implementation  
+**Example:** Working on printing folder structure:   
+* Operating_System/System/Print_Folder_Structure/Algorithms  
+* Operating_System/System/Print_Folder_Structure/Research  
+* Operating_System/System/Print_Folder_Structure/Implementation  
