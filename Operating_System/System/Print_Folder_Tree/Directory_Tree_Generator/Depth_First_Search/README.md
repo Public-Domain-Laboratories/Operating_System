@@ -7,4 +7,5 @@ https://en.wikipedia.org/wiki/Depth-first_search
 Tree traversal using Depth-First Search.   
 Graph traversal might not be correct for this project.  
 
-"Tree_Traversal_with_Recursive_Depth_First_Search"
+"Tree_Traversal_with_Recursive_Depth_First_Search"  
+"Folder_Tree_Traversal_with_Recursive_Depth_First_Search"  
