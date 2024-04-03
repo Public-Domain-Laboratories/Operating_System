@@ -11,7 +11,8 @@ https://medium.com/@patrickshaughnessy/walking-the-file-directory-a98ddd4bf164
 
 
 Search Graph Search Algorithm Terminology mapping onto file structure terms:  
-Root Node = Zero level folder.
+Root Node = Zero level folder.  
+Node = subfolder.  
 
 Backtracking - Stack data structure needed.  
 Usually a stack, is needed to keep track of the nodes discovered so far along a specified branch which helps in backtracking of the graph.
