@@ -10,11 +10,11 @@ https://medium.com/@patrickshaughnessy/walking-the-file-directory-a98ddd4bf164
 
 
 
-Search Algorithm Terminology mapping onto file structure terms:
+Search Algorithm Terminology mapping onto file structure terms:  
 Root Node = Zero level folder.
 
 Backtracking
 
 
-References
+References  
 https://en.wikipedia.org/wiki/Depth-first_search  
