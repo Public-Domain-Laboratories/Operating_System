@@ -1,5 +1,7 @@
 Exploring paths by traversal.
 
+Traversal is accessing content of each directory of the path to build a tree. 
+
 
 In-order Depth-First Search (DFS) 
 
