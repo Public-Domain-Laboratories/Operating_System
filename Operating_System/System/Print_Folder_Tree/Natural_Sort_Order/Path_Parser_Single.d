@@ -10,7 +10,6 @@ string[] paths = [
 ];
 
 void main() {
-    // Traverse path.
 
     foreach (path; paths) writeln(path);
     
