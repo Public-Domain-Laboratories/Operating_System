@@ -15,7 +15,7 @@ void main() {
     
     foreach (string path; paths) {
         size_t depth;
-        foreach (directory; splitString(path)) {
+        foreach (directory; splitPathString(path)) {
             foreach (i; 0 .. depth) write(" ");
             if (depth != 0) write(" ");
             write(directory, ); 
@@ -25,24 +25,88 @@ void main() {
     }
 }
 
-// Path parser
+// Path parser, reader, word former.
 // Converts path to array.
 // Takes text, extracts all characters that are not a slash (/)
 // Loops over a text input and if it is not a slash character it will be stored into word and then that word is stored into an array.
-string[] splitString(string text) {
+
+	// Read letter and add it to word. 
+	// Store individual words to the dictionary
+	//clear word temp storage
+	
+// Algorithm
+// Splitter
+
+string[] splitPathString(string text) {
     
 	string word;
-    string[] extracted;
+    string[] wordList;
 	
-    foreach (letter; text) {
-        if (letter != '/'){
-			join([word, 's']);
-            //word ~= letter;
-        }
+    foreach (char letter; text) {
+	
         if (letter == '/') {
-            extracted ~= word;
-            word = "";
-        }
+			wordList ~= word;
+			word = ""; 
+			continue; 
+		} 
+		
+		word ~= letter;
     }
-    return extracted;
+    return wordList;
+}
+
+
+
+
+// Instead of continue an empty character is used. More instructions per cycle. No benefits.
+string[] splitPathStringLessEfficient(string text) {
+    
+	string word;
+    string[] wordList;
+	
+    foreach (char letter; text) {
+	
+        if (letter == '/') {
+			
+			wordList ~= word;
+			word = ""; 
+			letter = '\0';
+		} 
+		
+		word ~= letter;
+    }
+    return wordList;
+}
+
+// tool/function
+string[] splitString(string text, char splitter = '/') {
+    
+	string word;
+    string[] wordList;
+	
+    foreach (char letter; text) {
+		word ~= letter;
+	
+        if (letter == splitter) {
+			wordList ~= word;
+			word = ""; 
+		} 
+    }
+    return wordList;
+}
+
+string[] splitStringSimple(string text) {
+    
+	string word;
+    string[] wordList;
+	
+    foreach (char letter; text) {
+		word ~= letter;
+	
+        if (letter == '_') {
+			wordList ~= word;
+			word = ""; 
+		} 
+    }
+    return wordList;
 }
