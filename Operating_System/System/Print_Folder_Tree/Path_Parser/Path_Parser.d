@@ -4,10 +4,6 @@ import std;
 // Directories can store files and subfolders
 // Mostly can be used interchangeably.
 
-string[] paths = [
-    "./directory/folder/subfolder/",
-    "./directory/folder/subfolder/",
-];
 
 void main() {
 
@@ -33,6 +29,13 @@ void main() {
 // Algorithm
 // Splitter
 
+string[] paths = [
+    "./directory/folder/subfolder/",
+    "./directory/folder/subfolder/",
+	r"C:\Users\Windows10\Documents\GitHub\Operating-System\Operating_System\System\Print_Folder_Tree\Path_Parser",
+];
+
+
 string[] splitPathString(string text) {
     
 	string word;
@@ -40,7 +43,7 @@ string[] splitPathString(string text) {
 	
     foreach (char letter; text) {
 	
-        if (letter == '/') {
+        if (letter == '/' || letter == '\\') {
 			wordList ~= word;
 			word = ""; 
 			continue; 
