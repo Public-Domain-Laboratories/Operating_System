@@ -14,14 +14,10 @@ void main() {
     foreach (path; paths) writeln(path);
     
     foreach (string path; paths) {
-        size_t depth;
-        foreach (directory; splitPathString(path)) {
-            foreach (i; 0 .. depth) write(" ");
-            if (depth != 0) write(" ");
+		foreach (directory; splitPathString(path)) {
             write(directory, ); 
             write("\n");
-            depth++;
-        }
+		}
     }
 }
 
