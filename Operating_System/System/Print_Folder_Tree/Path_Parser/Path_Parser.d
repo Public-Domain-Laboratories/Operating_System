@@ -5,17 +5,7 @@ import std;
 // Mostly can be used interchangeably.
 
 
-void main() {
 
-    foreach (path; paths) writeln(path);
-    
-    foreach (string path; paths) {
-		foreach (directory; splitPathString(path)) {
-            write(directory, ); 
-            write("\n");
-		}
-    }
-}
 
 // Path parser, reader, word former.
 // Converts path to array.
@@ -29,12 +19,9 @@ void main() {
 // Algorithm
 // Splitter
 
-string[] paths = [
-    "./directory/folder/subfolder/",
-    "./directory/folder/subfolder/",
-	r"C:\Users\Windows10\Documents\GitHub\Operating-System\Operating_System\System\Print_Folder_Tree\Path_Parser",
-];
-
+void main() {
+	writeln("Please run:    rdmd -unittest Path_Parser.d    to start the test. ");
+}
 
 string[] splitPathString(string text) {
     
@@ -54,6 +41,23 @@ string[] splitPathString(string text) {
     return wordList;
 }
 
+unittest
+{
+	string[] paths = [
+		"./directory/folder/subfolder/",
+		"./directory/folder/subfolder/",
+		r"C:\Users\Windows10\Documents\GitHub\Operating-System\Operating_System\System\Print_Folder_Tree\Path_Parser",
+	];
+
+    foreach (path; paths) writeln(path);
+    
+    foreach (string path; paths) {
+		foreach (directory; splitPathString(path)) {
+            write(directory, ); 
+            write("\n");
+		}
+    }
+}
 
 
 
