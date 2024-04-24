@@ -26,6 +26,9 @@ The Operating system directories are in object like structure.
 Object -> subobject (Common theme, groups files for readable access)  
 Object -> action (program.d) or property (information.txt)  
 
+The reverse way of accessing should be possible as well:  
+System/Directory/Print.d  
+Print.d/Directory  
 
 ```
 ├───Kernel
