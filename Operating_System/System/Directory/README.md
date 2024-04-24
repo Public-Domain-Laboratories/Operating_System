@@ -1,3 +1,8 @@
+`create folder`  
+`delete folder`  
+`print folder`  
+`go folder`  
+
 Prints Directory Tree to the standard output.
 
 A Directory is: A folder or container used to organize files on a computer system.  
