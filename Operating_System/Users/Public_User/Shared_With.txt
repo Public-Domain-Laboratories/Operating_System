@@ -1,0 +1,4 @@
+Username       Rights
+________________________________________________
+Computer_User Open/Close Execute Create/Modify
+Computer_User
