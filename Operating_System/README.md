@@ -29,7 +29,7 @@ Object -> action (program.d) or property (information.txt)
 The reverse way of accessing should be possible as well:  
 Normal: System/Directory/Print.d  
 Reverse: Print.d/Directory/System  "./"  
-Ommision: Print/Directory  "./"
+Omission: Print/Directory  "./"
 
 ```
 ├───Kernel
