@@ -1,5 +1,5 @@
              Username       Rights
 ______________________________________________________
-Example             Access     Execute   Modify        
+Example               Access   Execute   Modify        
 Administrator       Open/Close Execute Create/Modify
 Computer_User         Default  Default  Default
