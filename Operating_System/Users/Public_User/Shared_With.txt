@@ -1,4 +1,4 @@
-Username       Rights
+             Username       Rights
 ______________________________________________________
 Administrator       Open/Close Execute Create/Modify
 Computer_User         Default  Default  Default
