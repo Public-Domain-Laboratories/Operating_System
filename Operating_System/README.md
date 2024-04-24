@@ -22,6 +22,10 @@ Operating_System.
 No copyrights reserved.   
 @Public_Domain_Laboratories
 
+The Operating system directories are in object like structure.  
+Object -> subobject (Common theme, groups files for readable access)
+Object -> action (program.d) or property (information.txt)
+
 
 ```
 ├───Kernel
