@@ -1,6 +1,7 @@
 > Maybe it would be better to have a single folder with files of usernames and their roles in the filename.   
 > Double underscore __ might be good to separate the roles from usernames.  
->  Having roles followed by usernames be better. Example: Regular__Username.txt | Administrator__Username.txt
+> Having roles followed by usernames be better. Example: Regular__Username.txt | Administrator__Username.txt
+> However having to edit filename letter by letter instead of drag and drop into folders might be an issues.
 
 
 
