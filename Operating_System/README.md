@@ -27,8 +27,8 @@ Object -> subobject (Common theme, groups files for readable access)
 Object -> action (program.d) or property (information.txt)  
 
 The reverse way of accessing should be possible as well:  
-System/Directory/Print.d  
-Print.d/Directory  
+Normal: System/Directory/Print.d  
+Reverse: Print.d/Directory  
 
 ```
 ├───Kernel
