@@ -1,3 +1,3 @@
 Handles connections between computers and devices.
-Interconnected network.  
-Local network.
+Interconnected network.    
+Local network.  
