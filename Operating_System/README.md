@@ -31,6 +31,9 @@ Normal: System/Directory/Print.d
 Reverse: Print.d/Directory/System  "./"  
 Omission: Print/Directory  "./"
 
+Files and Directories are case insensitive.  
+Accessing them can be done with lowercase and a mix of uppercase letters.
+
 ```
 ├───Kernel
 │   ├───Boot
