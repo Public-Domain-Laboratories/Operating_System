@@ -1,3 +1,5 @@
+> Maybe it would be better to have a single folder with files of usernames and their roles in the filename.
+
 Folder of Users, their data and user-wide programs.
 
 Folders are [capitalization-case-insensitive][0].
