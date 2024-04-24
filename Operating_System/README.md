@@ -34,6 +34,8 @@ Omission: Print/Directory  "./"
 Files and Directories are case insensitive.  
 Accessing them can be done with lowercase and a mix of uppercase letters.
 
+Interface should be a contract or a template for ensuring same structure within source files.
+
 ```
 ├───Kernel
 │   ├───Boot
