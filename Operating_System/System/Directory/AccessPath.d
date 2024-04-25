@@ -6,3 +6,4 @@
 // "/path/" | IncludePath, SidePath, importPath, MergePath, JoinPath
 // ExtendPath "/path/"
 // FullPath
+// Linkage.
