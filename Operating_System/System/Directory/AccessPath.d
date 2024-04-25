@@ -5,3 +5,4 @@
 // Foreign binaries and files access for use in the current directory.
 // "/path/" | IncludePath, SidePath, importPath, MergePath, JoinPath
 // ExtendPath "/path/"
+// FullPath
