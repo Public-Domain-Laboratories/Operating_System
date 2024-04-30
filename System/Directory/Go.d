@@ -5,8 +5,11 @@
 // https://dlang.org/phobos/std_file.html#chdir
 // https://github.com/dlang/phobos/blob/master/std/file.d#L2885
 
-void go(){
+void go(string path="."){
+  import std.stdio;
   import std.file;
-  
+  chdir(path);
   
 }
+
+void main() => go;
