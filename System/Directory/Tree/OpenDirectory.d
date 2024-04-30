@@ -1,7 +1,6 @@
+// OpenDirectory.d = Opens directory file and lists content: files and sub-directories.
 import std.stdio;
 import std.file;
-
-// OpenDirectory.d = Opens directory file and lists content: files and sub-directories.
 
 void main()
 {
