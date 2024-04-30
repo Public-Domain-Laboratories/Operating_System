@@ -6,3 +6,9 @@ It is labor intesive to find/research/reprogram the right directory file impleme
 without breaking the directory files that are in binary.  
  
 
+
+If D language already provides lower level access to Directory files.
+It is best to check the implementation source code and improve it.  
+
+Only use lower level functions of D langauge. Higher level functions might be poluted with additional unecessary functionality.  
+Or could provide with instability if source code is edited by less knowledgeable programmers.
