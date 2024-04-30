@@ -2,11 +2,11 @@
 import std.stdio;
 import std.file;
 
-
+// dirEntries function also accepts direct raw string path.
 void OpenDirectory(string path){
     DirEntry directory = DirEntry(path);
     string directoryPath = directory.name();
-    // dirEntries function also accepts direct raw string path.
+    
     foreach (DirEntry entry; dirEntries(directoryPath, SpanMode.shallow))
     {
             writeln(entry.name());
