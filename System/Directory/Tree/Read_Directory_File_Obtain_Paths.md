@@ -19,6 +19,6 @@ But the same possibly already implemented in D Language library and should be re
 It is safer and more standard to contribute to D and reuse D system library code.
 
 
-Today: use D Library Lower functions
-Future: Reimplement for each legacy operating system
-Far future: Research each operating system and provide binary access without breaking the Directory file.
+Today: use D Library Lower functions.  
+Future: Reimplement for each legacy operating system.  
+Far future: Research each operating system and provide binary access without breaking the Directory file.  
