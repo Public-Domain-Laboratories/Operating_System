@@ -18,10 +18,10 @@ With focus on performance, security, usability, compatibility, scalability, and 
 More information: [Operating_System](#operating-system-root-folder)
 
 No Copyright reserved.  
-[Public Domain Laboratories.](../.../../../../)  
+[Public Domain Laboratories.](https://opencollective.com/public-domain-laboratories/projects/pdl_operating_system)  
 ___
 A Public Domain alternative to Linux Distributions, Windows Operating Systems, Apple MacOS, Google Android.  
-https://opencollective.com/public-domain-laboratories/projects/pdl_operating_system
+
 ___
 
 ### Operating System Root folder
