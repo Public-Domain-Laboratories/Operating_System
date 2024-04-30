@@ -1,1 +1,1 @@
-To obtain paths and make a list of paths reading directory file in binary might be necessary.
+To obtain paths and make a list of paths reading a raw directory file in binary might be necessary.
