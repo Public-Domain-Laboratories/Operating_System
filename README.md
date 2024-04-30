@@ -1,7 +1,6 @@
 
-![oval_smaller](https://github.com/Public-Domain-Laboratories/Operating_System/assets/21064622/1a5289cd-12a7-41a9-ad97-ce933e9b08dd)
 
-# Operating_System [![Sponsor_button](https://dub.sh/fk4m2Ao)](https://dub.sh/Operating-System "Donate to the Project")
+# ![oval_smaller](https://github.com/Public-Domain-Laboratories/Operating_System/assets/21064622/1a5289cd-12a7-41a9-ad97-ce933e9b08dd) Operating_System [![Sponsor_button](https://dub.sh/fk4m2Ao)](https://dub.sh/Operating-System "Donate to the Project")
 
 > [!IMPORTANT]  
 > This is a long term project to standardise and structure an Operating System for the future.  
