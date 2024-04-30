@@ -12,3 +12,6 @@ It is best to check the implementation source code and improve it.
 
 Only use lower level functions of D langauge. Higher level functions might be poluted with additional unecessary functionality.  
 Or could provide with instability if source code is edited by less knowledgeable programmers.
+
+Maybe a simple cd and readdir of C language might be enough.   
+But the same possibly already implemented in D Language library and should be reused.
