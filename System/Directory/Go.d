@@ -9,7 +9,8 @@ void go(string path="."){
   import std.stdio;
   import std.file;
   chdir(path);
+  write(getcwd);
   
 }
 
-void main() => go;
+void main(string[] path) => go(path[1]);
