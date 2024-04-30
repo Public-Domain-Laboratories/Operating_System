@@ -1,6 +1,5 @@
 
-![oval_smaller](https://github.com/Public-Domain-Laboratories/Operating_System/assets/21064622/1047a8c6-5548-4e2b-8515-cf21ebcfbe33)
-
+![oval_smaller](https://github.com/Public-Domain-Laboratories/Operating_System/assets/21064622/1a5289cd-12a7-41a9-ad97-ce933e9b08dd)
 
 # Operating_System [![Sponsor_button](https://dub.sh/fk4m2Ao)](https://dub.sh/Operating-System "Donate to the Project")
 
