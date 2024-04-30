@@ -7,7 +7,7 @@ void main()
     DirEntry directory = DirEntry("C:\\Users\\Windows10\\Desktop\\Server5");
     string directoryPath = directory.name();
 
-    foreach (DirEntry entry; dirEntries(directoryPath,SpanMode.shallow))
+    foreach (DirEntry entry; dirEntries(directoryPath, SpanMode.shallow))
     {
             writeln(entry.name());
     }
