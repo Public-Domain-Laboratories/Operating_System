@@ -15,3 +15,5 @@ Or could provide with instability if source code is edited by less knowledgeable
 
 Maybe a simple cd and readdir of C language might be enough.   
 But the same possibly already implemented in D Language library and should be reused.
+
+It is safer and more standard to contribute to D and reuse D system library code.
