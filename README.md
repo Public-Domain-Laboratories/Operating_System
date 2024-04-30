@@ -15,7 +15,7 @@ Standardized interfaces and interaction with Operating System Kernels.
 
 With focus on performance, security, usability, compatibility, scalability, and reliability.
 
-More information: [Operating_System](./Operating_System)
+More information: [Operating_System](#operating-system-root-folder)
 
 No Copyright reserved.  
 [Public Domain Laboratories.](../.../../../../)  
@@ -24,7 +24,7 @@ A Public Domain alternative to Linux Distributions, Windows Operating Systems, A
 https://opencollective.com/public-domain-laboratories/projects/pdl_operating_system
 ___
 
-Operating System Root folder
+### Operating System Root folder
 
 Overview of the operating system.
 * [Kernel](./Kernel/) - Automatic Computer Resource Manager.
