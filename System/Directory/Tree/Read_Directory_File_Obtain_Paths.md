@@ -14,7 +14,8 @@ Only use lower level functions of D langauge. Higher level functions might be po
 Or could provide with instability if source code is edited by less knowledgeable programmers.
 
 Maybe a simple cd and readdir of C language might be enough.   
-But the same possibly already implemented in D Language library and should be reused.
+But the same possibly already implemented in D Language library and should be reused.  
+https://unix.stackexchange.com/questions/178651/how-does-one-inspect-the-directory-structure-information-of-a-unix-linux-file/178680#178680  
 
 It is safer and more standard to contribute to D and reuse D system library code.
 
