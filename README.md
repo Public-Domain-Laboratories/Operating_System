@@ -68,6 +68,7 @@ All this is to just make project or directory usage more convenient for less exp
 
 Interface should be a contract or a template for ensuring same structure within source files.
 
+TODO: Make a drop-in replacement for Windows cmd.exe Command Prompt. Windows administrator should be able to paste binary into System32 folder and simply use all commands and environment of this project. 
 
 
 ```
