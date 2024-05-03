@@ -64,6 +64,7 @@ Accessing them can be done with lowercase and a mix of uppercase letters.
 
 Shallow directories should not include long directory names and single word names should be enforced on them.
 More complex directories or projects inside Operating System can contain more descripting longer names for both files and folders.
+All this is to just make project or directory usage more convenient for less experienced and more manageable for more experienced programmers.  
 
 Interface should be a contract or a template for ensuring same structure within source files.
 
