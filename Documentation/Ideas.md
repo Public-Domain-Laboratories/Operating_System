@@ -29,3 +29,6 @@ The folder structure starts with the `Print_Folder_Structure` as target of the p
 
 The project possible future websites for the project
 http://operating-system.io operating-system.sh operating-system.wiki operating-system.dev operating-system.digital operating-system.online operating-system.host operating-system.link operating-system.site operating-system.tools operating-system.systems
+
+
+Workshop or Lab, could be the directory names used for temporary experimentation projects.
