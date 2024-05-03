@@ -72,6 +72,7 @@ TODO: Make a drop-in replacement for Windows cmd.exe Command Prompt. Windows adm
 
 
 ```
+├───Documentation
 ├───Kernel
 │   ├───Boot
 │   │   └───Bootloaders
@@ -80,6 +81,8 @@ TODO: Make a drop-in replacement for Windows cmd.exe Command Prompt. Windows adm
 │   └───Storage_Devices
 │       └───Filesystems
 ├───Library
+│   ├───Datatypes
+│   ├───Interface
 │   ├───Legacy
 │   └───Standard_Library
 │       ├───Aplication_Binary_Interface
@@ -89,18 +92,24 @@ TODO: Make a drop-in replacement for Windows cmd.exe Command Prompt. Windows adm
 │       └───Memory_Allocator
 ├───Programs
 │   ├───Administration
+│   │   ├───Groups
+│   │   └───Permissions
 │   ├───Configurations
+│   ├───Control_Panel
+│   ├───Games
 │   ├───Package_Manager
 │   ├───Processes
 │   │   ├───Memory_Manager
 │   │   └───Process_Manager
+│   ├───Security
 │   ├───Settings
 │   ├───User_Interface
 │   └───Utilities
 │       ├───Formal_Math_Formula_Evaluator
 │       ├───Regular_Expression_Engine
 │       └───Text_Tools
-├───System_Tools
+├───System
+│   ├───Commands
 │   ├───Command_Line
 │   │   ├───Console
 │   │   └───Interpreter
@@ -109,12 +118,41 @@ TODO: Make a drop-in replacement for Windows cmd.exe Command Prompt. Windows adm
 │   ├───Development
 │   │   └───Language
 │   │       └───Parsers
-│   └───Logs
+│   │           ├───BNF_Notation
+│   │           └───Recursive_Decent_Parsing
+│   ├───Games
+│   │   └───Text-Based
+│   ├───Information
+│   ├───Logs
+│   ├───Network
+│   │   ├───Internet
+│   │   └───URL
+│   ├───Startup
+│   ├───Storage
+│   │   ├───Directory
+│   │   │   └───Tree
+│   │   │       ├───Directory_Tree_Generator
+│   │   │       │   ├───Depth_First_Search
+│   │   │       │   ├───First research
+│   │   │       │   │   └───prototypes
+│   │   │       │   ├───path_traversal
+│   │   │       │   └───while_method
+│   │   │       ├───Natural_Sort_Order
+│   │   │       ├───Path_Explorer
+│   │   │       ├───Path_Parser
+│   │   │       └───Recursive_Depth_First_Tree_Traversal
+│   │   ├───File
+│   │   ├───Filesystems
+│   │   └───Search
+│   └───Tools
 └───Users
-    ├───General_Administrator
+    ├───Administrator
     │   ├───Desktop
     │   ├───Files
     │   └───Home
-    ├───Regular_User
-    └───System_Administrator
+    ├───Public_User
+    │   ├───Guest_User
+    │   └───Shared_User
+    └───Regular_User
+        └───Desktop
 ```
