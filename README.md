@@ -31,7 +31,7 @@ ___
 Overview of the operating system.
 * [Kernel](./Kernel/) - Automatic Computer Resource Manager.
 * [Library](./Library/) - System Library and Interfaces of [Operating_System](./).
-* [System_Tools](./System_Tools/) - Tools for managing, inspecting and recovering [Operating_System](./).
+* [System](./System/) - Tools for managing, inspecting and recovering [Operating_System](./).
 * [Programs](./Programs/) - Installed System-wide executable software. (Compilers, Administration)
 * [Users](./Users/) - Data and software of the Users.
  
@@ -68,9 +68,11 @@ All this is to just make project or directory usage more convenient for less exp
 
 Interface should be a contract or a template for ensuring same structure within source files.
 
+TODO: Make a drop-in replacement for Windows cmd.exe Command Prompt. Windows administrator should be able to paste binary into System32 folder and simply use all commands and environment of this project. 
 
 
 ```
+├───Documentation
 ├───Kernel
 │   ├───Boot
 │   │   └───Bootloaders
@@ -79,6 +81,8 @@ Interface should be a contract or a template for ensuring same structure within 
 │   └───Storage_Devices
 │       └───Filesystems
 ├───Library
+│   ├───Datatypes
+│   ├───Interface
 │   ├───Legacy
 │   └───Standard_Library
 │       ├───Aplication_Binary_Interface
@@ -88,18 +92,24 @@ Interface should be a contract or a template for ensuring same structure within 
 │       └───Memory_Allocator
 ├───Programs
 │   ├───Administration
+│   │   ├───Groups
+│   │   └───Permissions
 │   ├───Configurations
+│   ├───Control_Panel
+│   ├───Games
 │   ├───Package_Manager
 │   ├───Processes
 │   │   ├───Memory_Manager
 │   │   └───Process_Manager
+│   ├───Security
 │   ├───Settings
 │   ├───User_Interface
 │   └───Utilities
 │       ├───Formal_Math_Formula_Evaluator
 │       ├───Regular_Expression_Engine
 │       └───Text_Tools
-├───System_Tools
+├───System
+│   ├───Commands
 │   ├───Command_Line
 │   │   ├───Console
 │   │   └───Interpreter
@@ -108,12 +118,41 @@ Interface should be a contract or a template for ensuring same structure within 
 │   ├───Development
 │   │   └───Language
 │   │       └───Parsers
-│   └───Logs
+│   │           ├───BNF_Notation
+│   │           └───Recursive_Decent_Parsing
+│   ├───Games
+│   │   └───Text-Based
+│   ├───Information
+│   ├───Logs
+│   ├───Network
+│   │   ├───Internet
+│   │   └───URL
+│   ├───Startup
+│   ├───Storage
+│   │   ├───Directory
+│   │   │   └───Tree
+│   │   │       ├───Directory_Tree_Generator
+│   │   │       │   ├───Depth_First_Search
+│   │   │       │   ├───First research
+│   │   │       │   │   └───prototypes
+│   │   │       │   ├───path_traversal
+│   │   │       │   └───while_method
+│   │   │       ├───Natural_Sort_Order
+│   │   │       ├───Path_Explorer
+│   │   │       ├───Path_Parser
+│   │   │       └───Recursive_Depth_First_Tree_Traversal
+│   │   ├───File
+│   │   ├───Filesystems
+│   │   └───Search
+│   └───Tools
 └───Users
-    ├───General_Administrator
+    ├───Administrator
     │   ├───Desktop
     │   ├───Files
     │   └───Home
-    ├───Regular_User
-    └───System_Administrator
+    ├───Public_User
+    │   ├───Guest_User
+    │   └───Shared_User
+    └───Regular_User
+        └───Desktop
 ```
