@@ -62,7 +62,12 @@ Omission: Print/Directory  "./"
 Files and Directories are case insensitive.  
 Accessing them can be done with lowercase and a mix of uppercase letters.
 
+Shallow directories should not include long directory names and single word names should be enforced on them.
+More complex directories or projects inside Operating System can contain more descripting longer names for both files and folders.
+
 Interface should be a contract or a template for ensuring same structure within source files.
+
+
 
 ```
 ├───Kernel
