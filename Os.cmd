@@ -8,4 +8,4 @@ REM "os install" should  install last pointed instance of Operating_System.
 REM Maybe CMD.exe should be replaced with Command Line Interface.
 
 REM Allows to use the Command line programs immediately in your environment to script and complete work in a standard way.
-REM Enables execution of .d source files. Adds ability to launch .d files from subfolders of Operating System.
+REM Enables execution of .d source files. Adds ability to launch .d files from subfolders of Operating_System.
