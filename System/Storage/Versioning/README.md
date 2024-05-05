@@ -1,1 +1,0 @@
-Versioning system for files, folders and projects.
