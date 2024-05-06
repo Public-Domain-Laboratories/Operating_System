@@ -11,3 +11,5 @@ REM Allows to use the Command Line programs immediately in your environment to s
 REM Enables execution of .d source files. Adds ability to launch .d files from subfolders of Operating_System.
 
 REM It should pop up a blue color Command Line Interface Window.
+
+REM All I know is this should make Operating_System usable in the current environment and allow to install it for long-term.
