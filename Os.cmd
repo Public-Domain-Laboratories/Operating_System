@@ -13,3 +13,5 @@ REM Enables execution of .d source files. Adds ability to launch .d files from s
 REM It should pop up a blue color Command Line Interface Window.
 
 REM All I know is this should make Operating_System usable in the current environment and allow to install it for long-term.
+
+REM Before running the .d source code, a quick checksum against Operating_System project might be useful to enhance security.
