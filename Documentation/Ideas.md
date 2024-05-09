@@ -32,3 +32,6 @@ http://operating-system.io operating-system.sh operating-system.wiki operating-s
 
 
 Workshop or Lab, could be the directory names used for temporary experimentation projects.
+
+
+New name for the project: Lab_Operating_System
