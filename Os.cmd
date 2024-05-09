@@ -4,6 +4,7 @@
 ECHO Public_Domain_Laboratories. No Copyrights Reserved.
 ECHO.
 CMD /Q /K
+REM START /I /B  "Operating_System" "CMD /Q /K"
 
 REM This should install a executable that runs last pointed instance of Operating_System.
 REM I think it should be Command Line interface, Command Interpreter.
