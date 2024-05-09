@@ -1,6 +1,8 @@
 @ECHO OFF 
 @TITLE Operating_System Prototype
 ECHO Public_Domain_Laboratories. No Copyrights Reserved.
+
+REM Enable Windows Command Prompt when executing from Explorer.exe File Browser
 IF NOT "%~0"==".\%~nx0" ECHO. && CMD /Q /K
 
 
