@@ -1,7 +1,6 @@
 @ECHO OFF 
 @TITLE Operating_System Prototype
 ECHO Public_Domain_Laboratories. No Copyrights Reserved.
-
 IF NOT "%~0"==".\%~nx0" ECHO. && CMD /Q /K
 
 
