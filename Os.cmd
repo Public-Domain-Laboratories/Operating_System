@@ -9,7 +9,7 @@ REM Two code lines version of "Enable Windows Command Prompt when executing from
 REM SET "execution_path=%~0"
 REM IF "%execution_path:~1,1%"==":" ECHO. && CMD /Q /K
 
-
+REM Initialize.cmd, init.cmd or similar  "launcher" should be placed  inside \Windows\ folder.
 
 
 REM START /I /B  "Operating_System" "CMD /Q /K"
