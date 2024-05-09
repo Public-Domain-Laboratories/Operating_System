@@ -5,7 +5,7 @@ ECHO Public_Domain_Laboratories. No Copyrights Reserved.
 REM Enable Windows Command Prompt when executing from Explorer.exe File Browser
 IF NOT "%~0"==".\%~nx0" ECHO. && CMD /Q /K
 
-
+REM Two code lines version of "Enable Windows Command Prompt when executing from Explorer.exe File Browser"
 REM SET "execution_path=%~0"
 REM IF "%execution_path:~1,1%"==":" ECHO. && CMD /Q /K
 
