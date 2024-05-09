@@ -16,6 +16,8 @@ REM START /I /B  "Operating_System" "CMD /Q /K"
 
 REM Creating new prompt does not preserve the previous environment correctly.
 
+REM Executing cmd.exe, the Operating_System should trigger as exetension and replace regular Command Prompt.
+
 REM This should install a executable that runs last pointed instance of Operating_System.
 REM I think it should be Command Line interface, Command Interpreter.
 REM "os install" should  install last pointed instance of Operating_System.
