@@ -1,9 +1,13 @@
 
 @ECHO OFF 
-@TITLE Operating_System
+@TITLE Operating_System Prototype
 ECHO Public_Domain_Laboratories. No Copyrights Reserved.
-ECHO.
-CMD /Q /K
+SET "execution_path=%~0"
+IF "%execution_path:~1,1%"==":" ECHO. && CMD /Q /K
+
+
+
+
 REM START /I /B  "Operating_System" "CMD /Q /K"
 
 REM Creating new prompt does not preserve the previous environment correctly.
