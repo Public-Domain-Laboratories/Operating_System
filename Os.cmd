@@ -1,6 +1,8 @@
 
-@ECHO OFF && TITLE Operating_System && CLS
+@ECHO OFF 
+@TITLE Operating_System
 ECHO Public_Domain_Laboratories. No Copyrights Reserved.
+ECHO.
 CMD /Q /K
 
 REM This should install a executable that runs last pointed instance of Operating_System.
