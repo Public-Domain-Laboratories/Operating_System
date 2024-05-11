@@ -37,3 +37,6 @@ Workshop or Lab, could be the directory names used for temporary experimentation
 New name for the project: 
 Lab_Operating_System  
 Computer_Operating_System  
+
+
+Idea: Source control README: List recent projects in this Monolithic repostiory
