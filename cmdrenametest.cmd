@@ -1,4 +1,5 @@
 @ECHO OFF
+ECHO Source: https://superuser.com/a/1321278/740880
 ECHO Needs Command Prompt with elevated privilegies.
 CD "C:\Windows\system32\"
 takeown /F "C:\Windows\system32\cmd.exe" /A
