@@ -21,7 +21,10 @@ In the context of the algorithm to print directory paths as a tree, traversing i
 
 
 
+On linux, C Standard
 
+readdir() — Read an Entry from a Directory  
+https://www.ibm.com/docs/en/zvm/7.3?topic=descriptions-readdir-read-entry-from-directory
 
 
 
