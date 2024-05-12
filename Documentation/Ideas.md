@@ -40,3 +40,6 @@ Computer_Operating_System
 
 
 Idea: Source control README: List recent projects in this Monolithic repostiory
+
+
+Idea: Recursion can be visualized as a Label and GOTO
