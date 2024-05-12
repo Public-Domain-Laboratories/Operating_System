@@ -1,4 +1,4 @@
 module libweb;
 
-public import libweb.client;
-public import libweb.server;
+public import libweb.first.client;
+public import libweb.second.server;
