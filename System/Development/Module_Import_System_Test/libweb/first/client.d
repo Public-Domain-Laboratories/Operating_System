@@ -1,3 +1,3 @@
 module libweb.first.client;
-
-void runClient() { }
+import std;
+void runClient() { write("Client");}

@@ -1,3 +1,3 @@
 module libweb.second.server;
-
-void runServer() { }
+import std;
+void runServer() {  write("Server"); }
