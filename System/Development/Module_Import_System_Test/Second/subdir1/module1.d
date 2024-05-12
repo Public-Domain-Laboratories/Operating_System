@@ -1,6 +1,6 @@
 // module1.d
-module testmodules.subdir1.module1;
-import testmodules.subdir2.module2;
+module subdir1.module1;
+import subdir2.module2;
 
 
 void helloFromModule1() {
