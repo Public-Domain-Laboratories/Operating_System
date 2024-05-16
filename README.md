@@ -26,6 +26,8 @@ A Public Domain alternative to Linux Distributions, Windows Operating Systems, A
 
 ___
 
+
+## Operating System Layout
 ### Operating System Root folder
 
 Overview of the operating system.
