@@ -31,6 +31,7 @@ Root node - A node without any prior node.
 Prior node - Parent node 
 Subnode - Child node  
 
+A node contains current node data, but also references to subnodes if there are any.
 
 
 
