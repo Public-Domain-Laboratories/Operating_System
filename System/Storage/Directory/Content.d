@@ -1,0 +1,1 @@
+// Reads the content of the directory
