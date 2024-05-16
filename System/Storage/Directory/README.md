@@ -26,10 +26,10 @@ On linux, C Standard
 readdir() — Read an Entry from a Directory  
 https://www.ibm.com/docs/en/zvm/7.3?topic=descriptions-readdir-read-entry-from-directory
 
-New Terminology:  without relying on familial terminology.  
-Root node - A node without any prior node.
-Prior node - Parent node 
-Subnode - Child node  
+New Terminology:  without relying on familial terminology.   
+Root node - A node without any prior node.  
+Prior node - Parent node   
+Subnode - Child node   
 
 A node contains current node data, but also references to subnodes if there are any.
 
