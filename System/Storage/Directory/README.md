@@ -27,8 +27,10 @@ readdir() — Read an Entry from a Directory
 https://www.ibm.com/docs/en/zvm/7.3?topic=descriptions-readdir-read-entry-from-directory
 
 New Terminology:  without relying on familial terminology.  
+Root node
 Prior node - Parent node 
 Subnode - Child node  
+
 
 
 
