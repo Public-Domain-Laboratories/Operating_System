@@ -39,4 +39,9 @@ pdls
 ospd
 ospd
 os.pd
-
+oslan
+osget
+Operating_System PDL
+OSPDL
+PDLS = Public Domain Laboratories System
+ospd
