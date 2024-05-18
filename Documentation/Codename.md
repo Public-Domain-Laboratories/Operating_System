@@ -45,3 +45,12 @@ Operating_System PDL
 OSPDL
 PDLS = Public Domain Laboratories System
 ospd
+
+Unifiedos
+Unifiedlabs
+publicdomainos
+Global Operating System (GOS)
+gos
+
+pdlinos
+pdlgiosu
