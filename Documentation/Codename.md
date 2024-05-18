@@ -47,6 +47,8 @@ PDLS = Public Domain Laboratories System
 ospd
 
 Unifiedos
+
+Public Computing Lab (PCL)
 Unifiedlabs
 publicdomainos
 Global Operating System (GOS)
@@ -54,5 +56,8 @@ gos
 
 pdlinos
 pdlgiosu
+<<<<<<< HEAD
 
 oslab
+=======
+>>>>>>> 33b1ddc6e8a8844315dc062ef6bcc82a0aa9eb84
