@@ -1,3 +1,7 @@
+Codename might be required if Operating_System does not run as the main evironment, such as under linux distribution or windows operating systems.  
+For now: PDL_Operating_System
+
+
 Possible codename for the project: runos
 Public Domain Laboratories Operating System runos
 openos
