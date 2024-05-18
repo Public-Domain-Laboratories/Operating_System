@@ -56,8 +56,7 @@ gos
 
 pdlinos
 pdlgiosu
-<<<<<<< HEAD
 
 oslab
-=======
->>>>>>> 33b1ddc6e8a8844315dc062ef6bcc82a0aa9eb84
+
+ospublic
