@@ -61,6 +61,8 @@ gos
 pdlinos
 pdlgiosu
 
+PDS = Public Domain System
+
 oslab
 
 ospublic
