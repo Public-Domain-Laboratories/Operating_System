@@ -67,4 +67,5 @@ oslab
 
 ospublic
 
-PDS = Public Domain System
+PDS = Public Domain System 
+PdsOS = Public Domain System Operating System
