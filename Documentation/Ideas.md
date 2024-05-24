@@ -43,3 +43,7 @@ Idea: Source control README: List recent projects in this Monolithic repostiory
 
 
 Idea: Recursion can be visualized as a Label and GOTO
+
+Drafts might be a better folder name for documentation or something else.
+
+
