@@ -1,4 +1,5 @@
 @ECHO OFF 
+@CALL ".\System\Generate_Version.cmd"
 @SET /p VersionfileContent=<".\System\Version.txt"
 @TITLE Operating_System Prototype %VersionfileContent%
 ECHO Public_Domain_Laboratories. No Copyrights Reserved.
