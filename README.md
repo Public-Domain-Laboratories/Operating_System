@@ -23,7 +23,7 @@ No Copyright reserved.
 [Public Domain Laboratories.](https://opencollective.com/public-domain-laboratories/projects/pdl_operating_system)  
 ___
 A Public Domain alternative to Linux Distributions, Windows Operating Systems, Apple MacOS, Google Android.  
-
+Targeting: Home Computer Operating System 
 ___
 
 
