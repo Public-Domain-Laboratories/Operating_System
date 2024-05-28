@@ -2,7 +2,7 @@
     <toolbar>
         <button tool="bold">[bold]</button> <button tool="italic">[italic]</button> <button tool="strike">[strike]</button> <button tool="h1">[h1]</button> <button tool="h2">[h2]</button> <button tool="h3">[h3]</button> <button tool="h4">[h4]</button> <button tool="h5">[h5]</button> <button tool="link">[link]</button> <button tool="quote">[quote]</button> <button tool="list">[list]</button> <button tool="code">[code]</button> <button tool="hr">[hr]</button> <button tool="image">[image]</button> <button tool="spoiler">[spoiler]</button> <button tool="highlight">[highlight]</button> 
     </toolbar>
-    <textdecoration><side><linenumbers></linenumbers><linebreakpoints></linebreakpoints></side><text contenteditable><bold>Example</bold><regular> text.</regular></text></textdecoration>
+    <textdecoration><side><linenumbers>1</linenumbers><linebreakpoints></linebreakpoints></side><text contenteditable><bold>Example</bold><regular> text.</regular></text></textdecoration>
 </texteditor>
 
 
@@ -41,7 +41,7 @@
 
     side {
         display: flex;
-        width: 50px;
+        width: 30px;
         background: gray;
         margin-right: 5px;
     }
@@ -50,12 +50,14 @@
         background: #26282b;
     display: block;
     width: -webkit-fill-available;
+    text-align: center;
+    color: white;
     }
 
     linebreakpoints{
         background: #393c42;
     display: block;
-    width: -webkit-fill-available;
+    width: 50%;
     }
 
     textdecoration {
