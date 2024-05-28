@@ -32,12 +32,12 @@
 </script>
 
 <script>
-
+    /*
     function getTagByContent(tag, content) {
         return Array.from(document.querySelectorAll(tag)).find(button => button.textContent.trim() === content);
     }
-    //const boldButton = getTagByContent('button', '[bold]');
-    
+    const boldButton = getTagByContent('button', '[bold]');
+    */
 
     
 
@@ -49,7 +49,7 @@
     document.querySelectorAll('button[tool]').forEach(button => {
         button.addEventListener('click', buttonHandler); 
     });
-    
+
     function buttonHandler (event) {
         switch(event.target.getAttribute('tool')) {
             case 'bold':
