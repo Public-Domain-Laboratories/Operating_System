@@ -15,3 +15,7 @@ function delay(n) {
 ```
 
 https://blog.praveen.science/right-way-of-delaying-execution-synchronously-in-javascript-without-using-loops-or-timeouts/
+
+
+Website information should only update when user is looking at webpage.
+Everything else is a special case.
