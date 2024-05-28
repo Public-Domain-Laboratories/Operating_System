@@ -23,4 +23,5 @@ Everything else is a special case.
 
 Data retrieval: Polling and Streaming
 Polling is about checking the information on the HTTP server at an interval. This means the request for information is made all the time, leading to more internet bandwidth used.
-Streaming is more intensive at the client side, but does not waste internet bandwidth and only waits for new information to be delivered from the server. 
+Streaming is more intensive at the client side, but does not waste internet bandwidth and only waits for new information to be delivered from the server.  
+https://stackoverflow.com/questions/4852702/do-html-websockets-maintain-an-open-connection-for-each-client-does-this-scale
