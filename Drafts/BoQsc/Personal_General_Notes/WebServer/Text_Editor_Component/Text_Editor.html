@@ -49,6 +49,7 @@
     document.querySelectorAll('button[tool]').forEach(button => {
         button.addEventListener('click', buttonHandler); 
     });
+    
     function buttonHandler (event) {
         switch(event.target.getAttribute('tool')) {
             case 'bold':
