@@ -2,7 +2,7 @@
     <toolbar>
         <button tool="bold">[bold]</button> <button tool="italic">[italic]</button> <button tool="strike">[strike]</button> <button tool="h1">[h1]</button> <button tool="h2">[h2]</button> <button tool="h3">[h3]</button> <button tool="h4">[h4]</button> <button tool="h5">[h5]</button> <button tool="link">[link]</button> <button tool="quote">[quote]</button> <button tool="list">[list]</button> <button tool="code">[code]</button> <button tool="hr">[hr]</button> <button tool="image">[image]</button> <button tool="spoiler">[spoiler]</button> <button tool="highlight">[highlight]</button> 
     </toolbar>
-    <textdecoration><linenumbers></linenumbers>><linebreakpoints><segment></segment><segmenttwo></segmenttwo></linebreakpoints><text contenteditable><bold>Example</bold><regular> text.</regular></text></textdecoration>
+    <textdecoration><side><linenumbers></linenumbers><linebreakpoints></linebreakpoints></side><text contenteditable><bold>Example</bold><regular> text.</regular></text></textdecoration>
 </texteditor>
 
 
@@ -37,29 +37,22 @@
 
     }
 
-    linenumbers {
-        display: inline-block;
-        /*width: 50px;*/
-        border-right: solid 2px #000000;
-        margin-right: 6px;
-        height: 2ex;
-        border-right-style: dotted;
-    }
 
-    linebreakpoints {
+
+    side {
         display: flex;
         width: 50px;
         background: gray;
         margin-right: 5px;
     }
 
-    segment{
+    linenumbers{
         background: #26282b;
     display: block;
     width: -webkit-fill-available;
     }
 
-    segmenttwo{
+    linebreakpoints{
         background: #393c42;
     display: block;
     width: -webkit-fill-available;
