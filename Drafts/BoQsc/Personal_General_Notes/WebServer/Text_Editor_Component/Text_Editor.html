@@ -46,8 +46,10 @@
 
 
 <script>
-document.querySelectorAll('button[tool]').forEach(button => {
-    button.addEventListener('click', (event) => {
+    document.querySelectorAll('button[tool]').forEach(button => {
+        button.addEventListener('click', buttonHandler); 
+    });
+    function buttonHandler (event) {
         switch(event.target.getAttribute('tool')) {
             case 'bold':
                 console.log('Bold tool selected');
@@ -92,8 +94,8 @@ document.querySelectorAll('button[tool]').forEach(button => {
                 console.log('Unknown tool selected');
                 break;
         }
-    });
-});
+    };
+
 
 
      
