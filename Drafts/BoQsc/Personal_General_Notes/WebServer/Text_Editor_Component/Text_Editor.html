@@ -2,12 +2,20 @@
     <toolbar>
         <button tool="bold">[bold]</button> <button tool="italic">[italic]</button> <button tool="strike">[strike]</button> <button tool="h1">[h1]</button> <button tool="h2">[h2]</button> <button tool="h3">[h3]</button> <button tool="h4">[h4]</button> <button tool="h5">[h5]</button> <button tool="link">[link]</button> <button tool="quote">[quote]</button> <button tool="list">[list]</button> <button tool="code">[code]</button> <button tool="hr">[hr]</button> <button tool="image">[image]</button> <button tool="spoiler">[spoiler]</button> <button tool="highlight">[highlight]</button> 
     </toolbar>
-    <textdecoration><side><linenumbers>1</linenumbers><linebreakpoints></linebreakpoints></side><text contenteditable><bold>Example</bold><regular> text.</regular></text><side2><img src="https://raw.githubusercontent.com/apancik/public-domain-icons/master/dist/animal%20bear.svg"/><img src="https://raw.githubusercontent.com/apancik/public-domain-icons/master/dist/symbol%20cloud%20weather%20butt%20rain.svg"/><side2></textdecoration>
+    <textdecoration><side><linenumbers>1</linenumbers><linebreakpoints></linebreakpoints></side><text contenteditable><bold>Example</bold><regular> text.</regular></text></textdecoration>
+    <side2><img src="https://raw.githubusercontent.com/apancik/public-domain-icons/master/dist/animal%20bear.svg"/><img src="https://raw.githubusercontent.com/apancik/public-domain-icons/master/dist/symbol%20cloud%20weather%20butt%20rain.svg"/></side2>
 </texteditor>
 
 
 <style>
     body { background: #36393f; }
+
+    texteditor {
+        margin: 119px;
+
+        display: block;
+
+    }
 
     toolbar {
 
@@ -41,8 +49,9 @@
         
         width: 7%;
         display: flex;
-        align-items: center;
-         justify-content: center;
+    align-items: center;
+    justify-content: end;
+    
 
 
     }
@@ -50,8 +59,9 @@
 
         width: 20px;
     height: 20px;
-    background: #b9bbbe;
+    /*background: #b9bbbe;*/
     border-radius: 5px;
+    filter: invert(1);
     }
 
     side {
@@ -66,7 +76,7 @@
     display: block;
     width: -webkit-fill-available;
     text-align: center;
-    color: white;
+    color: #939393;
     }
 
     linebreakpoints{
