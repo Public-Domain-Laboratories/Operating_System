@@ -2,7 +2,7 @@
     <toolbar>
         <button tool="bold">[bold]</button> <button tool="italic">[italic]</button> <button tool="strike">[strike]</button> <button tool="h1">[h1]</button> <button tool="h2">[h2]</button> <button tool="h3">[h3]</button> <button tool="h4">[h4]</button> <button tool="h5">[h5]</button> <button tool="link">[link]</button> <button tool="quote">[quote]</button> <button tool="list">[list]</button> <button tool="code">[code]</button> <button tool="hr">[hr]</button> <button tool="image">[image]</button> <button tool="spoiler">[spoiler]</button> <button tool="highlight">[highlight]</button> 
     </toolbar>
-    <textdecoration><linenumbers></linenumbers><text contenteditable><bold>Example</bold><regular> text.</regular></text></textdecoration>
+    <textdecoration><linenumbers></linenumbers>><linebreakpoints><segment></segment><segmenttwo></segmenttwo></linebreakpoints><text contenteditable><bold>Example</bold><regular> text.</regular></text></textdecoration>
 </texteditor>
 
 
@@ -24,10 +24,14 @@
         font-family: "Open Sans", sans-serif;
         color:rgb(211, 211, 211);
         font-size: 14px;
-        border-left: solid 1px #5b5b5b; /* #393d44; */
-        border-radius: 6px;
         caret-color: #5865f2;
         width: 85%;
+
+        /*
+                border-left: solid 1px #5b5b5b; /* #393d44; */
+                border-radius: 6px;
+        
+        */
         /*margin-left: 30px;*/
         
 
@@ -42,9 +46,28 @@
         border-right-style: dotted;
     }
 
+    linebreakpoints {
+        display: flex;
+        width: 50px;
+        background: gray;
+        margin-right: 5px;
+    }
+
+    segment{
+        background: #26282b;
+    display: block;
+    width: -webkit-fill-available;
+    }
+
+    segmenttwo{
+        background: #393c42;
+    display: block;
+    width: -webkit-fill-available;
+    }
+
     textdecoration {
         width: 490px;
-        display: inline-block;
+        display: flex;
         padding-left: 50px;
         margin-top: 5px;
         border: 1px solid #333333;
