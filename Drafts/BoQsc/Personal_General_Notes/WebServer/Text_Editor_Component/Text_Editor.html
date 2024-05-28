@@ -1,8 +1,8 @@
 <texteditor>
     <toolbar>
-        [bold] [italic] [h1] [h2] [h3] [h4] [h5] [link] [quote] [list] [code] [hr] [image]
+        <button>[bold]</button> <button>[italic]</button> <button>[h1]</button> <button>[h2]</button> <button>[h3]</button> <button>[h4]</button> <button>[h5]</button> <button>[link]</button> <button>[quote]</button> <button>[list]</button> <button>[code]</button> <button>[hr]</button> <button>[image]</button>
     </toolbar>
-    <text><bold>Example</bold><regular> text.</regular></text>
+    <text contenteditable><bold>Example</bold><regular> text.</regular></text>
 </texteditor>
 
 <style>
@@ -26,3 +26,4 @@
     //If selection crosses another tag = remove content from both tags and insert inbetween a new tag with the new tag.'
     //If there is no parent tag = auto add <regular> text tag
 </script>
+
