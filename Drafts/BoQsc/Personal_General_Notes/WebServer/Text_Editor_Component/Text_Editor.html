@@ -7,14 +7,33 @@
 
 
 <style>
+    body { background: #36393f; }
+
     toolbar, text {
 
         display: block;
         width: 490px;
     }
+
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
     text {
         white-space: pre;
+        background: rgb(64, 68, 75);
+        border-radius: 5px;
+        font-family: "Open Sans", sans-serif;
+        color:rgb(211, 211, 211);
+        text-size: 14px;
+        padding: 5px;
+        padding-left: 50px;
+        margin-top: 5px;
     }
+
+    ::selection {
+        background: #d3d3d3;
+        color: #000000;
+    }
+
+    text:focus {outline: none;}
 
     bold {
 
