@@ -19,3 +19,8 @@ https://blog.praveen.science/right-way-of-delaying-execution-synchronously-in-ja
 
 Website information should only update when user is looking at webpage.
 Everything else is a special case.
+
+
+Data retrieval: Polling and Streaming
+Polling is about checking the information on the HTTP server at an interval. This means the request for information is made all the time, leading to more internet bandwidth used.
+Streaming is more intensive at the client side, but does not waste internet bandwidth and only waits for new information to be delivered from the server. 
