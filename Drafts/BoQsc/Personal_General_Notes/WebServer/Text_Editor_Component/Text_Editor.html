@@ -1,9 +1,10 @@
 <texteditor>
     <toolbar>
-        <button id="bold">[bold]</button> <button>[italic]</button> <button>[h1]</button> <button>[h2]</button> <button>[h3]</button> <button>[h4]</button> <button>[h5]</button> <button>[link]</button> <button>[quote]</button> <button>[list]</button> <button>[code]</button> <button>[hr]</button> <button>[image]</button>
+        <button tool="bold">[bold]</button> <button tool="italic">[italic]</button> <button tool="h1">[h1]</button> <button tool="h2">[h2]</button> <button tool="h3">[h3]</button> <button tool="h4">[h4]</button> <button tool="h5">[h5]</button> <button tool="link">[link]</button> <button tool="quote">[quote]</button> <button tool="list">[list]</button> <button tool="code">[code]</button> <button tool="hr">[hr]</button> <button tool="image">[image]</button>
     </toolbar>
     <text contenteditable><bold>Example</bold><regular> text.</regular></text>
 </texteditor>
+
 
 <style>
     toolbar, text {
@@ -27,6 +28,7 @@
     //If there is no parent tag = auto add <regular> text tag
     //On pressing enter, the following text should turn into regular.
     //If toolbar button is pressed, it should surround text with tags.
+    // document.querySelectorAll('button[tool="bold"]')
 </script>
 
 <script>
