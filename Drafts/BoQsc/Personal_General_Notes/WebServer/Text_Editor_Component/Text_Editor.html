@@ -38,6 +38,7 @@
     }
     //const boldButton = getTagByContent('button', '[bold]');
     
+
     
 
     
@@ -45,6 +46,55 @@
 
 
 <script>
-    document.getElementById("bold");
+document.querySelectorAll('button[tool]').forEach(button => {
+    button.addEventListener('click', (event) => {
+        switch(event.target.getAttribute('tool')) {
+            case 'bold':
+                console.log('Bold tool selected');
+                break;
+            case 'italic':
+                console.log('Italic tool selected');
+                break;
+            case 'h1':
+                console.log('Heading 1 tool selected');
+                break;
+            case 'h2':
+                console.log('Heading 2 tool selected');
+                break;
+            case 'h3':
+                console.log('Heading 3 tool selected');
+                break;
+            case 'h4':
+                console.log('Heading 4 tool selected');
+                break;
+            case 'h5':
+                console.log('Heading 5 tool selected');
+                break;
+            case 'link':
+                console.log('Link tool selected');
+                break;
+            case 'quote':
+                console.log('Quote tool selected');
+                break;
+            case 'list':
+                console.log('List tool selected');
+                break;
+            case 'code':
+                console.log('Code tool selected');
+                break;
+            case 'hr':
+                console.log('Horizontal Rule tool selected');
+                break;
+            case 'image':
+                console.log('Image tool selected');
+                break;
+            default:
+                console.log('Unknown tool selected');
+                break;
+        }
+    });
+});
+
+
      
 </script>
