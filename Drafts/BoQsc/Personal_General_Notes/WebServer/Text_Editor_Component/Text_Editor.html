@@ -1,15 +1,15 @@
 <texteditor>
     <toolbar>
-        <button tool="bold">[bold]</button> <button tool="italic">[italic]</button> <button tool="h1">[h1]</button> <button tool="h2">[h2]</button> <button tool="h3">[h3]</button> <button tool="h4">[h4]</button> <button tool="h5">[h5]</button> <button tool="link">[link]</button> <button tool="quote">[quote]</button> <button tool="list">[list]</button> <button tool="code">[code]</button> <button tool="hr">[hr]</button> <button tool="image">[image]</button>
+        <button tool="bold">[bold]</button> <button tool="italic">[italic]</button> <button tool="strike">[strike]</button> <button tool="h1">[h1]</button> <button tool="h2">[h2]</button> <button tool="h3">[h3]</button> <button tool="h4">[h4]</button> <button tool="h5">[h5]</button> <button tool="link">[link]</button> <button tool="quote">[quote]</button> <button tool="list">[list]</button> <button tool="code">[code]</button> <button tool="hr">[hr]</button> <button tool="image">[image]</button> <button tool="spoiler">[spoiler]</button> <button tool="highlight">[highlight]</button> 
     </toolbar>
-    <text contenteditable><bold>Example</bold><regular> text.</regular></text>
+    <textdecoration><linenumbers></linenumbers><text contenteditable><bold>Example</bold><regular> text.</regular></text></textdecoration>
 </texteditor>
 
 
 <style>
     body { background: #36393f; }
 
-    toolbar, text {
+    toolbar {
 
         display: block;
         width: 490px;
@@ -17,15 +17,33 @@
 
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
     text {
+        display: inline-block;
         white-space: pre;
-        background: rgb(64, 68, 75);
-        border-radius: 5px;
+        
+        
         font-family: "Open Sans", sans-serif;
         color:rgb(211, 211, 211);
-        text-size: 14px;
-        padding: 5px;
+        font-size: 14px;
+
+
+    }
+
+    linenumbers {
+        display: inline-block;
+        width: 50px;
+
+
+    }
+
+    textdecoration {
+        width: 490px;
+        display: inline-block;
         padding-left: 50px;
         margin-top: 5px;
+        border: 1px solid #333333;
+        padding: 5px;
+        background: rgb(64, 68, 75);
+        border-radius: 5px;
     }
 
     ::selection {
