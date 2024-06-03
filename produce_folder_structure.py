@@ -12,14 +12,14 @@ def print_folder_tree(start_path='.', indent='', last='updown', file=None):
             line = indent + connector + '📁 ' + item + '/'
             print(line)
             if file:
-                file.write(line + '\n')
+                file.write(line + '  \n')
             next_indent = indent + ('   ' if count == len(items) - 1 else '│  ')
             print_folder_tree(path, next_indent, 'updown' if count < len(items) - 1 else 'end', file)
         else:
             line = indent + connector + '📄 ' + item
             print(line)
             if file:
-                file.write(line + '\n')
+                file.write(line + '  \n')
 
 if __name__ == "__main__":
     with open('folder_structure.md', 'w', encoding='utf-8') as f:
