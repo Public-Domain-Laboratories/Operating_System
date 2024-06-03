@@ -1,5 +1,5 @@
 # Folder Structure
-
+```
 ├─ 📁 Documentation/
 │  ├─ 📄 Codename.md
 │  ├─ 📄 Ideas.md
@@ -335,3 +335,4 @@
 │     └─ 📄 README.md
 ├─ 📄 folder_structure.md
 └─ 📄 produce_folder_structure.py
+```
