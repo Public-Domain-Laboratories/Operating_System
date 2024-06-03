@@ -16,7 +16,6 @@
 │  │  │  └─ 📁 Runner/
 │  │  │     └─ 📄 Run_Pause_example.cmd
 │  │  ├─ 📁 Loader/
-│  │  │  └─ 📄 README.md
 │  │  ├─ 📄 OS_cmdrenametest.cmd
 │  │  ├─ 📁 Personal_General_Notes/
 │  │  │  ├─ 📄 README.md
@@ -33,91 +32,61 @@
 │  │  │        └─ 📄 Text_Editor.html
 │  │  ├─ 📄 README.md
 │  │  ├─ 📁 Trash/
-│  │  │  └─ 📄 README.md
 │  │  └─ 📁 Windows Batch/
-│  │     └─ 📄 README.md
 │  └─ 📄 README.md
 ├─ 📁 Kernel/
 │  ├─ 📁 Boot/
 │  │  ├─ 📁 Bootloaders/
-│  │  │  └─ 📄 README.md
 │  │  └─ 📄 README.md
 │  ├─ 📁 Devices/
-│  │  └─ 📄 README.md
 │  ├─ 📁 Networking_Devices/
-│  │  └─ 📄 README.md
 │  ├─ 📄 README.md
 │  └─ 📁 Storage_Devices/
 │     ├─ 📁 Filesystems/
-│     │  └─ 📄 README.md
 │     └─ 📄 README.md
 ├─ 📄 LICENSE
 ├─ 📁 Library/
 │  ├─ 📁 Datatypes/
-│  │  └─ 📄 README.md
 │  ├─ 📁 Interface/
-│  │  └─ 📄 README.md
 │  ├─ 📁 Legacy/
-│  │  └─ 📄 README.md
 │  ├─ 📄 README.md
 │  └─ 📁 Standard_Library/
 │     ├─ 📁 Aplication_Binary_Interface/
-│     │  └─ 📄 README.md
 │     ├─ 📁 Date_and_Time/
-│     │  └─ 📄 README.md
 │     ├─ 📁 Input_Output/
-│     │  └─ 📄 README.md
 │     ├─ 📁 Math/
-│     │  └─ 📄 README.md
 │     ├─ 📁 Memory_Allocator/
-│     │  └─ 📄 README.md
 │     └─ 📄 README.md
 ├─ 📄 Os.cmd
 ├─ 📁 Programs/
 │  ├─ 📁 Administration/
 │  │  ├─ 📁 Groups/
-│  │  │  └─ 📄 README.md
 │  │  ├─ 📁 Permissions/
-│  │  │  └─ 📄 README.md
 │  │  ├─ 📄 README.md
 │  │  ├─ 📄 allow.txt
 │  │  └─ 📄 deny.txt
 │  ├─ 📁 Configurations/
-│  │  └─ 📄 README.md
 │  ├─ 📁 Control_Panel/
-│  │  └─ 📄 README.md
 │  ├─ 📁 Games/
-│  │  └─ 📄 README.md
 │  ├─ 📁 Package_Manager/
-│  │  └─ 📄 README.md
 │  ├─ 📁 Processes/
 │  │  ├─ 📁 Memory_Manager/
-│  │  │  └─ 📄 README.md
 │  │  ├─ 📁 Process_Manager/
-│  │  │  └─ 📄 README.md
 │  │  └─ 📄 README.md
 │  ├─ 📄 README.md
 │  ├─ 📁 Security/
-│  │  └─ 📄 README.md
 │  ├─ 📁 Settings/
-│  │  └─ 📄 README.md
 │  ├─ 📁 User_Interface/
-│  │  └─ 📄 README.md
 │  └─ 📁 Utilities/
 │     ├─ 📁 Formal_Math_Formula_Evaluator/
-│     │  └─ 📄 README.md
 │     ├─ 📁 Regular_Expression_Engine/
-│     │  └─ 📄 README.md
 │     └─ 📁 Text_Tools/
-│        └─ 📄 README.md
 ├─ 📄 README.md
 ├─ 📁 System/
 │  ├─ 📁 Command_Line/
 │  │  ├─ 📁 Console/
-│  │  │  └─ 📄 README.md
 │  │  ├─ 📄 Create.d
 │  │  ├─ 📁 Interpreter/
-│  │  │  └─ 📄 README.md
 │  │  ├─ 📄 README.md
 │  │  ├─ 📄 associative_array_enumerate_to_index.txt
 │  │  └─ 📄 compile.cmd
@@ -166,17 +135,14 @@
 │  │  └─ 📄 unload.txt
 │  ├─ 📁 Compiler/
 │  │  ├─ 📁 Linker/
-│  │  │  └─ 📄 README.md
 │  │  └─ 📄 README.md
 │  ├─ 📁 Development/
 │  │  ├─ 📄 Create_README_For_ALL_Folders.d
 │  │  ├─ 📁 Language/
 │  │  │  └─ 📁 Parsers/
 │  │  │     ├─ 📁 BNF_Notation/
-│  │  │     │  └─ 📄 README.md
 │  │  │     ├─ 📄 README.md
 │  │  │     └─ 📁 Recursive_Decent_Parsing/
-│  │  │        └─ 📄 README.md
 │  │  ├─ 📁 Module_Import_System_Test/
 │  │  │  ├─ 📁 First/
 │  │  │  │  ├─ 📄 package.d
@@ -188,7 +154,6 @@
 │  │  │  │  └─ 📁 subdir2/
 │  │  │  │     └─ 📄 module2.d
 │  │  │  ├─ 📁 Manage_Module_Imports/
-│  │  │  │  └─ 📄 README.md
 │  │  │  ├─ 📄 Modules - D Programming Language.url
 │  │  │  ├─ 📄 On D Language It seems that modules revolve around root package and are not relative
 │  │  │  ├─ 📄 Root Module should import next level modules and these import their submodules from their folder
@@ -213,27 +178,22 @@
 │  │     └─ 📄 RPG-Adventure.d
 │  ├─ 📄 Generate_Version.cmd
 │  ├─ 📁 Information/
-│  │  └─ 📄 README.md
 │  ├─ 📄 Initialize
 │  ├─ 📄 Initialize.cmd
 │  ├─ 📄 Install
 │  ├─ 📁 Logs/
-│  │  └─ 📄 README.md
 │  ├─ 📁 Network/
 │  │  ├─ 📄 Browse.d
 │  │  ├─ 📁 Internet/
-│  │  │  └─ 📄 README.md
 │  │  ├─ 📄 README.md
 │  │  ├─ 📄 Search.d
 │  │  ├─ 📁 URL/
-│  │  │  └─ 📄 README.md
 │  │  └─ 📄 ping.d
 │  ├─ 📄 Print_Directory_Tree.cmd
 │  ├─ 📄 README.md
 │  ├─ 📄 Run.cmd
 │  ├─ 📄 Run.sh
 │  ├─ 📁 Startup/
-│  │  └─ 📄 README.md
 │  ├─ 📁 Storage/
 │  │  ├─ 📁 Directory/
 │  │  │  ├─ 📄 Content.d
@@ -247,7 +207,6 @@
 │  │  │  ├─ 📁 Tree/
 │  │  │  │  ├─ 📁 Directory_Tree_Generator/
 │  │  │  │  │  ├─ 📁 Depth_First_Search/
-│  │  │  │  │  │  └─ 📄 README.md
 │  │  │  │  │  ├─ 📁 First research/
 │  │  │  │  │  │  ├─ 📄 Print_Directory_Tree_Structure.d
 │  │  │  │  │  │  ├─ 📄 Print_Directory_Tree_deconstructedArray.d
@@ -264,11 +223,9 @@
 │  │  │  │  │  ├─ 📄 Print_Directory_Tree.d
 │  │  │  │  │  ├─ 📄 README.md
 │  │  │  │  │  ├─ 📁 path_traversal/
-│  │  │  │  │  │  └─ 📄 README.md
 │  │  │  │  │  └─ 📁 while_method/
 │  │  │  │  │     └─ 📄 Print_Directory_Tree.d
 │  │  │  │  ├─ 📁 Horizontal_Directory_Tree/
-│  │  │  │  │  └─ 📄 README.md
 │  │  │  │  ├─ 📁 Natural_Sort_Order/
 │  │  │  │  │  ├─ 📄 Path_Parser.d
 │  │  │  │  │  └─ 📄 README.md
@@ -288,15 +245,12 @@
 │  │  ├─ 📁 Path/
 │  │  │  ├─ 📄 Path.d
 │  │  │  ├─ 📁 Path_Explorer/
-│  │  │  │  └─ 📄 README.md
 │  │  │  └─ 📁 Path_Parser/
 │  │  │     ├─ 📄 Path_Parser_library.d
 │  │  │     └─ 📄 Path_Parser_tester.d
 │  │  ├─ 📄 README.md
 │  │  ├─ 📁 Search/
-│  │  │  └─ 📄 README.md
 │  │  └─ 📁 Versioning/
-│  │     └─ 📄 README.md
 │  ├─ 📁 Structures/
 │  │  ├─ 📄 README.md
 │  │  └─ 📁 Templates/
@@ -304,7 +258,6 @@
 │  │     ├─ 📄 Simple_Recursion.d
 │  │     └─ 📄 Simple_Recursion_Functional.d
 │  ├─ 📁 Tools/
-│  │  └─ 📄 README.md
 │  ├─ 📄 Update.d
 │  ├─ 📄 Upgrade.d
 │  ├─ 📄 Version.txt
@@ -312,26 +265,19 @@
 ├─ 📁 Users/
 │  ├─ 📁 Administrator/
 │  │  ├─ 📁 Desktop/
-│  │  │  └─ 📄 README.md
 │  │  ├─ 📁 Files/
-│  │  │  └─ 📄 README.md
 │  │  ├─ 📁 Home/
-│  │  │  └─ 📄 README.md
 │  │  ├─ 📄 README.md
 │  │  └─ 📄 password
 │  ├─ 📄 Computer_Owner.txt
 │  ├─ 📁 Public_User/
 │  │  ├─ 📁 Guest_User/
-│  │  │  └─ 📄 README.md
 │  │  ├─ 📁 Shared_User/
-│  │  │  └─ 📄 README.md
 │  │  └─ 📄 Table_Shared_With.txt
 │  ├─ 📄 README.md
 │  └─ 📁 Regular_User/
 │     ├─ 📁 Desktop/
-│     │  └─ 📄 README.md
 │     ├─ 📁 Downloads/
-│     │  └─ 📄 README.md
 │     └─ 📄 README.md
 ├─ 📄 folder_structure.md
 └─ 📄 produce_folder_structure.py
